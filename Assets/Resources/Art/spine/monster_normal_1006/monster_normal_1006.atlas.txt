@@ -1,0 +1,10 @@
+monster_normal_1006.png
+size:256,256
+filter:Linear,Linear
+pma:true
+main
+bounds:2,78,150,137
+offsets:9,6,170,170
+shadow
+bounds:2,2,168,74
+offsets:15,6,198,86

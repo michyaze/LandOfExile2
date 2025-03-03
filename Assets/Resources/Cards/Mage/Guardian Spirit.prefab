@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3667629559149321756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1949570924796162229}
+  - component: {fileID: 6807118950767606451}
+  - component: {fileID: 5616203649747622900}
+  m_Layer: 5
+  m_Name: Guardian Spirit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1949570924796162229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6807118950767606451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 656662fbd30fd4e86ad9c35089b3e268, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Mage37
+  sprite: {fileID: 21300000, guid: 692a759b9ea564a899909b7892746327, type: 3}
+  player: {fileID: 0}
+  cardTemplate: {fileID: 0}
+  initialCost: 0
+  level: 1
+  upgradeCard: {fileID: 0}
+  activatedAbility: {fileID: 5616203649747622900}
+  cardTags:
+  - {fileID: 11400000, guid: 6f485d8f25a4040a78466f13d44dedd3, type: 2}
+  actionAnimation: {fileID: 0}
+--- !u!114 &5616203649747622900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b6b2125eb91f4ba7bb2adc4b660f7d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 11400000, guid: 50d918a59f0744c789e9f09eae5b37c8, type: 2}
+  templateEffect: {fileID: 867150437659067355, guid: da4365223d0de440ebeb5b38ee327137,
+    type: 3}
+  charges: 0

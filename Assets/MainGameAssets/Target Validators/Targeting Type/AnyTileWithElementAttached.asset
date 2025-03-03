@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 204c618d4933e42118749528c6bb51dc, type: 3}
+  m_Name: AnyTileWithElementAttached
+  m_EditorClassIdentifier: 
+  effectTemplates:
+  - {fileID: 3123742518241261911, guid: 3e8a222d17c198347bd948368e3365a9, type: 3}
+  - {fileID: 3123742518241261911, guid: 574da1d2dc68c32408b8d187a6a85a85, type: 3}
+  - {fileID: 3123742518241261911, guid: 085d50f95a80ac84d96016206dc2863a, type: 3}
+  effectToNotTargetTemplates: []
+  UniqueID: 
+  noObstacle: 0
+  adjacentToMyHero: 0

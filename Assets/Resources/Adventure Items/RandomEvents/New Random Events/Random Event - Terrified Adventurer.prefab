@@ -1,0 +1,709 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &178699576473877753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3819324827194628930}
+  - component: {fileID: 187145252300992515}
+  m_Layer: 0
+  m_Name: Take Damage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3819324827194628930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178699576473877753}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 378382256960606707}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &187145252300992515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178699576473877753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ae095fdba3b4b9282f8a71ed9d56c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: ChoiceTakeDamage
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  validWithTalents: []
+  performAnotherAbility: {fileID: 0}
+  removeEventWhenOpen: 0
+  lifeLostAmount: 4
+--- !u!1 &541426739857403967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7148922012501334478}
+  - component: {fileID: 126813020197668618}
+  m_Layer: 0
+  m_Name: Take Minions M
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7148922012501334478
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541426739857403967}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2508438673283073208}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &126813020197668618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 541426739857403967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14cb0df7f99cb4ac2bcef3ecf07b5772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: ChoiceTakeThreeMage
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  validWithTalents:
+  - {fileID: 7756418509735178840, guid: 7fa8968ef72512b419f52504d12dc9a7, type: 3}
+  performAnotherAbility: {fileID: 0}
+  removeEventWhenOpen: 1
+  heroPath: {fileID: 5301567130242176044, guid: d268ce7356d674373af24bb9e0a394ed,
+    type: 3}
+--- !u!1 &1238585242389130649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5538854310662366402}
+  - component: {fileID: 6990052190200686345}
+  m_Layer: 0
+  m_Name: Intimidate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5538854310662366402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238585242389130649}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2508438673283073208}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6990052190200686345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238585242389130649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60e266ad35da34f0e9648c42cad1343f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: ChoiceIntimidate
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  validWithTalents: []
+  performAnotherAbility: {fileID: 0}
+  removeEventWhenOpen: 0
+  weaponMinLevel: 1
+  weaponLevel: 2
+--- !u!1 &1336937706385871435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2508438673283073208}
+  - component: {fileID: 4398192097990063010}
+  - component: {fileID: 4390611452920434224}
+  m_Layer: 0
+  m_Name: Random Event - Terrified Adventurer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2508438673283073208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336937706385871435}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5438788249863206787}
+  - {fileID: 6117487880314760811}
+  - {fileID: 5538854310662366402}
+  - {fileID: 4150262552004911232}
+  - {fileID: 5802813827736167087}
+  - {fileID: 7148922012501334478}
+  - {fileID: 8472298883761798890}
+  - {fileID: 378382256960606707}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4398192097990063010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336937706385871435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e4d26e37009742d3b70f555c11ad755, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: EventShellshockedAdventurer
+  sprite: {fileID: 21300000, guid: 8990262fb62424c7db435da9c4fc7336, type: 3}
+  alternateSprite: {fileID: 0}
+  alwaysOpen: 0
+  validAreaInts: 0100000004000000
+  eventDefinition: {fileID: 4390611452920434224}
+  validWithTalents: []
+  removeEventWhenOpen: 1
+--- !u!114 &4390611452920434224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336937706385871435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e7faf0b26f3e4831b474bae2ea97e1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: EventShellshockedAdventurer
+  sprite: {fileID: 21300000, guid: 8990262fb62424c7db435da9c4fc7336, type: 3}
+  alternateSprite: {fileID: 0}
+  eventChoices:
+  - {fileID: 329533670408755237}
+  - {fileID: 126813020197668618}
+  - {fileID: 1240540520749938341}
+  questId: 
+  hasLargeImage: 1
+--- !u!1 &1377840452927126412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 378382256960606707}
+  - component: {fileID: 329533670408755237}
+  m_Layer: 0
+  m_Name: ambushOrFlareStone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &378382256960606707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377840452927126412}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4810082949246244104}
+  - {fileID: 4205064461643898930}
+  - {fileID: 3819324827194628930}
+  - {fileID: 5199520735065042600}
+  m_Father: {fileID: 2508438673283073208}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &329533670408755237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377840452927126412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96604cfcfedbb03429c6a3dc53708017, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: ChoiceShowdownOfPower
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  validWithTalents: []
+  performAnotherAbility: {fileID: 0}
+  removeEventWhenOpen: 1
+  choices:
+  - {fileID: 6697396223918143423}
+  - {fileID: 832857132887268771}
+  prob: 4b00000019000000
+--- !u!1 &2216618675121637224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4205064461643898930}
+  - component: {fileID: 3725938128103802341}
+  m_Layer: 0
+  m_Name: GetNewStartEffect1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4205064461643898930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2216618675121637224}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 378382256960606707}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3725938128103802341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2216618675121637224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24fd745026577f14a9a778cae453b8eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: ChoiceGetStartingEffects1
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  validWithTalents: []
+  performAnotherAbility: {fileID: 0}
+  removeEventWhenOpen: 0
+  effectTemplate:
+  - {fileID: 867150437659067355, guid: fc99e2bcb6700114eb1ab2f2ecc72ec3, type: 3}
+  charges: 03000000
+--- !u!1 &2479454584045429245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5199520735065042600}
+  - component: {fileID: 832857132887268771}
+  m_Layer: 0
+  m_Name: flareStone (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5199520735065042600
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2479454584045429245}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 378382256960606707}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &832857132887268771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2479454584045429245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83849f1f3f106af409f107701aa2d2bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: ChoiceGainFlareStone
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  validWithTalents: []
+  performAnotherAbility: {fileID: 0}
+  removeEventWhenOpen: 0
+  flareStoneCount: -2
+--- !u!1 &3120361939744847823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4810082949246244104}
+  - component: {fileID: 6697396223918143423}
+  m_Layer: 0
+  m_Name: flareStone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4810082949246244104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3120361939744847823}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 378382256960606707}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6697396223918143423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3120361939744847823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83849f1f3f106af409f107701aa2d2bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: ChoiceGainFlareStone
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  validWithTalents: []
+  performAnotherAbility: {fileID: 0}
+  removeEventWhenOpen: 0
+  flareStoneCount: 2
+--- !u!1 &3753994020677371311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5802813827736167087}
+  - component: {fileID: 8212097042797383276}
+  m_Layer: 0
+  m_Name: FriendlyMage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5802813827736167087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3753994020677371311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2508438673283073208}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8212097042797383276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3753994020677371311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6cd7eb4215777343a829b1a1ab5ffe8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: ChoiceFriendlyMage
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  validWithTalents:
+  - {fileID: 7756418509735178840, guid: 7fa8968ef72512b419f52504d12dc9a7, type: 3}
+  performAnotherAbility: {fileID: 0}
+  removeEventWhenOpen: 0
+  heroPath: {fileID: 5301567130242176044, guid: d2ab9e45110d84b4b8ef8446f03524b0,
+    type: 3}
+  minionCount: 1
+  minionLevel: 1
+  weaponMinLevel: 1
+  weaponLevel: 1
+--- !u!1 &5008785651691426764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6117487880314760811}
+  - component: {fileID: 6192147999636120761}
+  m_Layer: 0
+  m_Name: Trade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6117487880314760811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5008785651691426764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2508438673283073208}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6192147999636120761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5008785651691426764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1e94e7d4dd1e4d80aedd6c6c8a5c686, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: ChoiceTradeCard
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  validWithTalents: []
+  performAnotherAbility: {fileID: 0}
+  removeEventWhenOpen: 0
+  weaponMinLevel: 1
+  weaponLevel: 1
+--- !u!1 &5021559341682708724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8472298883761798890}
+  - component: {fileID: 1240540520749938341}
+  m_Layer: 0
+  m_Name: Take Minions W
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8472298883761798890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5021559341682708724}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2508438673283073208}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1240540520749938341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5021559341682708724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14cb0df7f99cb4ac2bcef3ecf07b5772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: ChoiceTakeThreeWarrior
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  validWithTalents:
+  - {fileID: 7756418509735178840, guid: 3cad158ad977f8d42aa2e078549bfc1a, type: 3}
+  performAnotherAbility: {fileID: 0}
+  removeEventWhenOpen: 1
+  heroPath: {fileID: 5301567130242176044, guid: fba4b667b5d304d48803d791774810b5,
+    type: 3}
+--- !u!1 &5295876384356148809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4150262552004911232}
+  - component: {fileID: 3425675287799204866}
+  m_Layer: 0
+  m_Name: Friendly
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4150262552004911232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5295876384356148809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2508438673283073208}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3425675287799204866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5295876384356148809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6cd7eb4215777343a829b1a1ab5ffe8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: ChoiceFriendly
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  validWithTalents:
+  - {fileID: 7756418509735178840, guid: 3cad158ad977f8d42aa2e078549bfc1a, type: 3}
+  performAnotherAbility: {fileID: 0}
+  removeEventWhenOpen: 0
+  heroPath: {fileID: 5301567130242176044, guid: fba4b667b5d304d48803d791774810b5,
+    type: 3}
+  minionCount: 1
+  minionLevel: 1
+  weaponMinLevel: 1
+  weaponLevel: 1
+--- !u!1 &9194149199016033001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5438788249863206787}
+  - component: {fileID: 2439376898373357604}
+  m_Layer: 0
+  m_Name: Leave
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5438788249863206787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9194149199016033001}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2508438673283073208}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2439376898373357604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9194149199016033001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 314b5b3216a0646ba860ff92b7e3aa8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: ChoiceLeaveWithNothing
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  validWithTalents: []
+  performAnotherAbility: {fileID: 0}
+  removeEventWhenOpen: 0

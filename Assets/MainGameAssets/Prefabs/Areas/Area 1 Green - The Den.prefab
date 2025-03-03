@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &667485897519640161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5716493865408337644}
+  - component: {fileID: 3646574837182153450}
+  - component: {fileID: 4624699470923564543}
+  m_Layer: 0
+  m_Name: Area 1 Green - The Den
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5716493865408337644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667485897519640161}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3646574837182153450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667485897519640161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec7e7868eb57f49ce97ea1532e0bd8ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Area01
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  enemies:
+  - {fileID: 7153543043080617955, guid: 30780bee2fdf947ea9d93bef9cac7db6, type: 3}
+  - {fileID: 7153543043080617955, guid: 9644cb4fa0759424cafd60cb9e2cdbd2, type: 3}
+  - {fileID: 7153543043080617955, guid: aababb16201aa4cf6bf75b3ef27e5d1a, type: 3}
+  - {fileID: 7153543043080617955, guid: 8ac11b90b623b44cb88650b56ad1d716, type: 3}
+  - {fileID: 7153543043080617955, guid: d9270c8b3b6644adb94175146e689332, type: 3}
+  - {fileID: 7153543043080617955, guid: ed551f15e4ba74b7dacbc47d482c2706, type: 3}
+  - {fileID: 7153543043080617955, guid: 7a992d16ef57c4741b9e4a8cb665f67b, type: 3}
+  - {fileID: 7153543043080617955, guid: 9fa3ea698f20e41a381c9f2f9f7aaf13, type: 3}
+  - {fileID: 7153543043080617955, guid: 09d799b393ea64b908949058f2a44d62, type: 3}
+  - {fileID: 7153543043080617955, guid: 56b4ab51338ff458ea955868893c827d, type: 3}
+  - {fileID: 7153543043080617955, guid: 87ae8a2facac348dfba2b682220f8650, type: 3}
+  - {fileID: 7153543043080617955, guid: aa245473c2c79409f8bc4a0bce6be980, type: 3}
+  - {fileID: 7153543043080617955, guid: 374ab0b3bf6be47f08f1884391499c44, type: 3}
+  - {fileID: 7153543043080617955, guid: df0cf707606394f56a3ed30a8d828b0b, type: 3}
+  - {fileID: 7153543043080617955, guid: 56b0b1ad1b39647e5959d65e72ce5c83, type: 3}
+  - {fileID: 7153543043080617955, guid: 8dc499c50ea5e4c4aa7273c84c62e3f8, type: 3}
+  - {fileID: 7153543043080617955, guid: 2d36ab28699474fdfb3d796b66e9f3c6, type: 3}
+  - {fileID: 7153543043080617955, guid: 1bbd1a2d8edb44f0595c09fed25264ab, type: 3}
+  - {fileID: 7153543043080617955, guid: 1938e2c621b7c4b37b5da07f90b19fc9, type: 3}
+  - {fileID: 7153543043080617955, guid: 56c82584fc05e47bba1f902bae0f5521, type: 3}
+  - {fileID: 7153543043080617955, guid: b7451a9b938214121966eb68305c7c11, type: 3}
+  - {fileID: 7153543043080617955, guid: 93ea260d894b74ad3b17391be13fcde4, type: 3}
+  - {fileID: 7153543043080617955, guid: c7ed1020da810460aa3c43db48feb14c, type: 3}
+  bosses:
+  - {fileID: 7153543043080617955, guid: cc89d8dbe4510469e8752e6b82cf5322, type: 3}
+  - {fileID: 7153543043080617955, guid: ca60ed5411b33499ab1fb743a7dcd5e5, type: 3}
+  battleMapBGPrefabs:
+  - {fileID: 7618853770591451236, guid: c15cf202d09354ac9a36b2e375f5c7e6, type: 3}
+  - {fileID: 7618853770591451236, guid: 61fc3707f2c3d254ab2ad79bba888235, type: 3}
+  - {fileID: 7618853770591451236, guid: 0e94a5188735447e180181195a1bfc31, type: 3}
+  - {fileID: 7618853770591451236, guid: cec05e0daf2af437880fae7b3cd9c961, type: 3}
+  - {fileID: 7618853770591451236, guid: f409d77febd7c4d2fa4bdb903855fc9a, type: 3}
+  alternateBattleMapBGPrefabs: []
+  choiceButtonSprite: {fileID: 21300000, guid: 9103b9437ba50443c9b967af04b7d78c, type: 3}
+  mapRoomSprites:
+  - {fileID: 21300000, guid: 03e779e52e39d4d87b865ea7ecb7bbec, type: 3}
+  - {fileID: 21300000, guid: 7426b86cb686e4c459517b40fe395251, type: 3}
+  - {fileID: 21300000, guid: f1e4bc92a842848dcade2416616e2399, type: 3}
+  alternateMapRoomSprites: []
+  cardFrontSprites:
+  - {fileID: 21300000, guid: 04c16533b091d4244a38e849c720f0ef, type: 3}
+  - {fileID: 21300000, guid: d604035271d394ee9bc12573fb2f46bb, type: 3}
+  - {fileID: 21300000, guid: 6d304cd3916f84b2cb5f77f7131222fa, type: 3}
+  boardCardHeroSprite: {fileID: 21300000, guid: be42de01035cb4a8c803744ba9b8799e,
+    type: 3}
+  boardCardMinionSprite: {fileID: 21300000, guid: 4f0fe35bcec6b4e2696b92225440880b,
+    type: 3}
+  cardHistoryBorderColor: {r: 0.06666667, g: 0.47058824, b: 0, a: 1}
+  bigMapSprite: {fileID: 21300000, guid: 9cc0334878acfbe44a5c392c123e7df2, type: 3}
+  levelId: 1
+  xScale: 0.7
+  yScale: 0.71
+  obstacle: {fileID: 9023387019244983980, guid: ac6022f6eeab94d408802e330937d7ab,
+    type: 3}
+--- !u!114 &4624699470923564543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667485897519640161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ece2343d75b8488fb1a163dd2b7e2fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yOffset: -120

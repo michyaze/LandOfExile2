@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3667629559149321756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1949570924796162229}
+  - component: {fileID: 7762805283351796176}
+  - component: {fileID: 114163903348003924}
+  - component: {fileID: 114264963240871004}
+  - component: {fileID: 4687161168972171302}
+  - component: {fileID: 7422038789807434506}
+  - component: {fileID: 114966879302328974}
+  m_Layer: 5
+  m_Name: Minion - Red Pillar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1949570924796162229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7762805283351796176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d85dacce2afd4ba8a318987fdfaecce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: RedPillar
+  sprite: {fileID: 21300000, guid: f9dfe152d180547a784dbb182c447057, type: 3}
+  player: {fileID: 0}
+  cardTemplate: {fileID: 0}
+  initialCost: 0
+  level: 0
+  upgradeCard: {fileID: 0}
+  activatedAbility: {fileID: 114163903348003924}
+  cardTags:
+  - {fileID: 11400000, guid: 4da9e7762bece4c52bc59bf55e36f5d2, type: 2}
+  actionAnimation: {fileID: 0}
+  achievementRestricted: 0
+  goldWorth: 0
+  initialPower: 0
+  initialHP: 20
+  initialMoves: 1
+  initialActions: 1
+  currentPower: 0
+  currentHP: 0
+  remainingMoves: 0
+  remainingActions: 0
+  movementType: {fileID: 11400000, guid: 6c93214942b4546ce96b3843a38f9a7a, type: 2}
+  summoningType: {fileID: 11400000, guid: 18c021e031fda44668397f3399ce82e5, type: 2}
+  currentEffects: []
+  attackingSound:
+    SoundSource: 0
+    DatabaseName: General
+    SoundName: No Sound
+    AudioClip: {fileID: 0}
+    OutputAudioMixerGroup: {fileID: 0}
+  damagedSound:
+    SoundSource: 0
+    DatabaseName: General
+    SoundName: No Sound
+    AudioClip: {fileID: 0}
+    OutputAudioMixerGroup: {fileID: 0}
+  deathSound:
+    SoundSource: 0
+    DatabaseName: General
+    SoundName: No Sound
+    AudioClip: {fileID: 0}
+    OutputAudioMixerGroup: {fileID: 0}
+--- !u!114 &114163903348003924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1a3cfa1775c44b0ad65282a5290ec6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 11400000, guid: 33222093af560485288bb090a878f16b, type: 2}
+  otherAbilitiesToPerform: []
+  skipStandardAttack: 0
+--- !u!114 &114264963240871004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a156a6698e9614aa49a04e66d541059e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minionOnly: 0
+--- !u!114 &4687161168972171302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fba519397dab44b8b5225112bdd25c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  triggerType: 3
+  eventMustTriggerOnThisCard: 0
+  abilitiesToCallBelow: 1
+  triggerFilter: {fileID: 114264963240871004}
+  triggerEveryXTimes: 1
+  currentTriggers: 0
+  immediatelyPerform: 0
+--- !u!114 &7422038789807434506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e58f6bb1e66a4a0a90f3fa5c9e9cd7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  otherAbilityToPerform: {fileID: 114966879302328974}
+  targetUnitType: 1
+--- !u!114 &114966879302328974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d76397000ff7542deb85a5f4eee6a3d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  damageAmount: 2
+  useChargesAsDamageAmount: 0
+  exhaustTargetIfDestroyed: 0

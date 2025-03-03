@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3667629559149321756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1949570924796162229}
+  - component: {fileID: 6259999467527939144}
+  - component: {fileID: 3303492740242451478}
+  - component: {fileID: 1737604294392052256}
+  - component: {fileID: 3586951934853993810}
+  - component: {fileID: 4764946184378774500}
+  m_Layer: 5
+  m_Name: Scorched Earth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1949570924796162229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6259999467527939144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca04a73d58cb74f2c9d8e22a15b53117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: MageEffect72
+  sprite: {fileID: 21300000, guid: 28ee0878300764b7394a35c765998e3b, type: 3}
+  alternateSprite: {fileID: 0}
+  remainingCharges: 0
+  originalTemplate: {fileID: 0}
+  isPositive: 1
+  chargesStack: 1
+  canBeRemoved: 1
+  lastApplyTurnCount: 0
+  isVisibleOnCard: 1
+  abilityBeforeApply: {fileID: 0}
+  abilityWhenApply: {fileID: 0}
+  conflictEffects: []
+  abilityWhenConflict: {fileID: 0}
+  stopApplyWhenConflict: 0
+--- !u!114 &3303492740242451478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fba519397dab44b8b5225112bdd25c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  triggerTime: -1
+  targetOnSource: 0
+  performAbilityAfterTrigger: {fileID: 0}
+  triggerType: 1
+  eventMustTriggerOnThisCard: 1
+  eventMustTriggerOnThisPlayer: 0
+  abilitiesToCallBelow: 1
+  triggerFilter: {fileID: 0}
+  triggerEveryXTimes: 1
+  currentTriggers: 0
+  immediatelyPerform: 0
+--- !u!114 &1737604294392052256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a363328ad0867f4a984ffc61ed42440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  checkCanTargetTile: 0
+  abilities:
+  - {fileID: 3586951934853993810}
+  - {fileID: 3586951934853993810}
+--- !u!114 &3586951934853993810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed4688ce09ae44ade85993058c23649d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  otherAbilityToPerform: {fileID: 4764946184378774500}
+  targetTileType: 3
+--- !u!114 &4764946184378774500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 076f8833c429908449f3a91e355543fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  templateEffects:
+  - {fileID: 3123742518241261911, guid: 3e8a222d17c198347bd948368e3365a9, type: 3}
+  charges: 01000000
+  useAmount: 0

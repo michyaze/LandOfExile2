@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6884224269995296906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8530346234576610851}
+  - component: {fileID: 492197065377812294}
+  - component: {fileID: 6609006250321664049}
+  - component: {fileID: 1058184571984164076}
+  - component: {fileID: 2889186430999259775}
+  - component: {fileID: 8200156439116797958}
+  - component: {fileID: 7716754083238096385}
+  m_Layer: 5
+  m_Name: 101c Wizard Chimo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8530346234576610851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6884224269995296906}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &492197065377812294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6884224269995296906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d85dacce2afd4ba8a318987fdfaecce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Redn101c
+  sprite: {fileID: 21300000, guid: 56b993fa6e6ca43dbb179ef01f2dc677, type: 3}
+  alternateSprite: {fileID: 0}
+  player: {fileID: 0}
+  cardTemplate: {fileID: 0}
+  initialCost: 2
+  level: 3
+  CardUniqueId: 0
+  isCopiedCard: 0
+  isFlying: 0
+  cardTargetType: 0
+  activatedAbility: {fileID: 6609006250321664049}
+  cardTags: []
+  actionAnimation: {fileID: 1928137150472329698, guid: c43ed5a84f36048bbbb407c3caa8c377,
+    type: 3}
+  goldWorth: 0
+  temporaryOnly: 0
+  initialPower: 3
+  initialHP: 4
+  initialMoves: 1
+  initialActions: 1
+  currentPower: 0
+  currentHP: 0
+  remainingMoves: 0
+  currentDamageReduction: 0
+  remainingActions: 0
+  movementType: {fileID: 11400000, guid: 6c93214942b4546ce96b3843a38f9a7a, type: 2}
+  summoningType: {fileID: 11400000, guid: 18c021e031fda44668397f3399ce82e5, type: 2}
+  currentEffects: []
+  attackingSound:
+    SoundSource: 0
+    DatabaseName: General
+    SoundName: No Sound
+    AudioClip: {fileID: 0}
+    OutputAudioMixerGroup: {fileID: 0}
+  damagedSound:
+    SoundSource: 0
+    DatabaseName: General
+    SoundName: No Sound
+    AudioClip: {fileID: 0}
+    OutputAudioMixerGroup: {fileID: 0}
+  deathSound:
+    SoundSource: 0
+    DatabaseName: General
+    SoundName: No Sound
+    AudioClip: {fileID: 0}
+    OutputAudioMixerGroup: {fileID: 0}
+  lastTile: {fileID: 0}
+  exhaustAfterUsage: 1
+--- !u!114 &6609006250321664049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6884224269995296906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1a3cfa1775c44b0ad65282a5290ec6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 11400000, guid: 6849da839df3d45b1aa81898aafdc1ba, type: 2}
+  otherAbilitiesToPerform:
+  - {fileID: 1058184571984164076}
+  skipStandardAttack: 0
+--- !u!114 &1058184571984164076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6884224269995296906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64ca6d3a2fcd49fb8c21cfa435133e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  otherAbilityToPerform: {fileID: 2889186430999259775}
+  instantChain: 0
+  canHitEnemy: 1
+  canHitFriendlies: 1
+  canHitHeroes: 1
+  canHitMinions: 1
+  dontIncludeTargetUnit: 1
+--- !u!114 &2889186430999259775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6884224269995296906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88c90911f7e084a6e963466710cef87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  abilityToPerform: {fileID: 8200156439116797958}
+  times: 1
+  useChargesInstead: 0
+  isRandom: 0
+--- !u!114 &8200156439116797958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6884224269995296906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a46fbc92edcd74b0bb9525a3dd8ad9fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 11400000, guid: 50d918a59f0744c789e9f09eae5b37c8, type: 2}
+  otherAbility: {fileID: -3745510965649187683, guid: 6f1f43866d538cc4d9ebf85247d81c3e,
+    type: 3}
+  targetMode: 3
+  extraDamage: 0
+--- !u!114 &7716754083238096385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6884224269995296906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d76397000ff7542deb85a5f4eee6a3d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  damageAmount: 0
+  useChargesAsDamageAmount: 0
+  exhaustTargetIfDestroyed: 0
+  destroyWeapon: 0
+  triggerUnitDamage: 1
+  useDamageAmount: 0
+  isElementalReaction: 0
+  targetTrap: 0

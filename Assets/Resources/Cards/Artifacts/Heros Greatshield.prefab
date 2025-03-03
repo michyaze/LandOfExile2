@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3667629559149321756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1949570924796162229}
+  - component: {fileID: 114355271711662926}
+  - component: {fileID: -1294907428418155807}
+  - component: {fileID: -6069898695389271758}
+  - component: {fileID: -1041049280655719872}
+  - component: {fileID: -1946537455477764175}
+  m_Layer: 5
+  m_Name: Heros Greatshield
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1949570924796162229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114355271711662926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 151f0b54bd5b544c9870104f0ae792aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: ArtifactEquip15
+  sprite: {fileID: 21300000, guid: 1278de17b7a1542dab9c6271f0dff8a8, type: 3}
+  alternateSprite: {fileID: 0}
+  player: {fileID: 0}
+  cardTemplate: {fileID: 0}
+  initialCost: 0
+  level: 0
+  CardUniqueId: 0
+  upgradeCard: {fileID: 0}
+  activatedAbility: {fileID: 0}
+  cardTags:
+  - {fileID: 11400000, guid: 66b3ea18c75ce49edaea3a2f4e42d117, type: 2}
+  - {fileID: 11400000, guid: 6f485d8f25a4040a78466f13d44dedd3, type: 2}
+  actionAnimation: {fileID: 0}
+  goldWorth: 30
+  temporaryOnly: 0
+  hasToWearWeapon: 0
+  initialCoolDown: 0
+  currentCoolDown: 0
+  unlockCost: 125
+--- !u!114 &-1294907428418155807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dee9a5f3ad12e4345af71f8b3dd5beaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minionOnly: 0
+  heroOnly: 0
+  adjacentToThisUnit: 0
+  rangeAttackOnly: 1
+  effectTemplates: []
+--- !u!114 &-6069898695389271758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 109448bf472934815b809b66d4cd796d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  triggerTime: -1
+  triggerType: 8
+  eventMustTriggerOnThisCard: 0
+  abilitiesToCallBelow: 1
+  triggerFilter: {fileID: -1294907428418155807}
+  immediatelyPerform: 0
+--- !u!114 &-1041049280655719872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e58f6bb1e66a4a0a90f3fa5c9e9cd7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  otherAbilityToPerform: {fileID: -1946537455477764175}
+  targetUnitType: 4
+--- !u!114 &-1946537455477764175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80439e3a221a468fb12139f202012e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  templateEffects:
+  - {fileID: 134861041769149801, guid: cbb3734733a2b43d3b32cb2afe74568a, type: 3}
+  charges: 01000000
+  notToSelf: 0
+  alsoApplyToAdjacentSameTeamUnits: 0
+  useAmount: 0
+  toHero: 0

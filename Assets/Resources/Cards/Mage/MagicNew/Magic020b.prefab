@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3667629559149321756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1949570924796162229}
+  - component: {fileID: 7762805283351796176}
+  - component: {fileID: 6465952400605402571}
+  - component: {fileID: -6703279634062355094}
+  - component: {fileID: -4372002742070249388}
+  - component: {fileID: 5226272895584882987}
+  - component: {fileID: 6449450953864591771}
+  m_Layer: 5
+  m_Name: Magic020b
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1949570924796162229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7762805283351796176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d85dacce2afd4ba8a318987fdfaecce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Magic020b
+  sprite: {fileID: 21300000, guid: 07be6d26d5f91413a957ea019b4c7468, type: 3}
+  alternateSprite: {fileID: 0}
+  player: {fileID: 0}
+  cardTemplate: {fileID: 0}
+  initialCost: 2
+  level: 2
+  CardUniqueId: 0
+  isCopiedCard: 0
+  isFlying: 0
+  cardTargetType: 0
+  activatedAbility: {fileID: 6465952400605402571}
+  cardTags: []
+  actionAnimation: {fileID: 0}
+  goldWorth: 0
+  temporaryOnly: 0
+  weapon: {fileID: 0}
+  initialPower: 3
+  initialHP: 6
+  initialMoves: 1
+  initialActions: 1
+  currentPower: 0
+  currentHP: 0
+  remainingMoves: 0
+  currentDamageReduction: 0
+  remainingActions: 0
+  movementType: {fileID: 11400000, guid: 6c93214942b4546ce96b3843a38f9a7a, type: 2}
+  originalActivatedAbility: {fileID: 0}
+  originalActionAnimation: {fileID: 0}
+  summoningType: {fileID: 11400000, guid: 18c021e031fda44668397f3399ce82e5, type: 2}
+  currentEffects: []
+  attackingSound:
+    SoundSource: 0
+    DatabaseName: General
+    SoundName: No Sound
+    AudioClip: {fileID: 0}
+    OutputAudioMixerGroup: {fileID: 0}
+  damagedSound:
+    SoundSource: 0
+    DatabaseName: General
+    SoundName: No Sound
+    AudioClip: {fileID: 0}
+    OutputAudioMixerGroup: {fileID: 0}
+  deathSound:
+    SoundSource: 0
+    DatabaseName: General
+    SoundName: No Sound
+    AudioClip: {fileID: 0}
+    OutputAudioMixerGroup: {fileID: 0}
+  lastTile: {fileID: 0}
+  exhaustAfterUsage: 1
+--- !u!114 &6465952400605402571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1a3cfa1775c44b0ad65282a5290ec6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 11400000, guid: 33222093af560485288bb090a878f16b, type: 2}
+  otherAbilitiesToPerform: []
+  skipStandardAttack: 0
+--- !u!114 &-6703279634062355094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab4f95000d84f1f44897f5c3b143b4c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  triggerTime: -1
+  targetOnSource: 0
+  performAbilityAfterTrigger: {fileID: 0}
+  spellOnly: 1
+  valueCheck: -1
+  type: 1
+  anotherAbility: {fileID: -4372002742070249388}
+  triggerOnSelf: 1
+  playerType: 0
+--- !u!114 &-4372002742070249388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e58f6bb1e66a4a0a90f3fa5c9e9cd7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  otherAbilityToPerform: {fileID: 6449450953864591771}
+  targetUnitType: 2
+  useTargeTileUnit: 0
+--- !u!114 &5226272895584882987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d76397000ff7542deb85a5f4eee6a3d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  damageAmount: 0
+  useChargesAsDamageAmount: 0
+  exhaustTargetIfDestroyed: 0
+  destroyWeapon: 0
+  triggerUnitDamage: 1
+  useDamageAmount: 0
+  isElementalReaction: 0
+  targetTrap: 0
+--- !u!114 &6449450953864591771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e17b19e75e87494ea7bdb14050174b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  otherAbilityToPerform: {fileID: 5226272895584882987}
+  bounceTime: 3
+  canHitEnemy: 1
+  canHitFriendlies: 0
+  canHitHeroes: 1
+  canHitMinions: 1
+  dontIncludeTargetUnit: 1
+  canBounceSelf: 0
+  performAtTheBeginning: 0

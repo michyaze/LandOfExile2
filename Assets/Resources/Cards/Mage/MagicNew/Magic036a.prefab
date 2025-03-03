@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3667629559149321756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1949570924796162229}
+  - component: {fileID: 621198866724557324}
+  - component: {fileID: 8851289510107461979}
+  - component: {fileID: 138844212883181895}
+  - component: {fileID: 5293296849531889706}
+  - component: {fileID: 7390098777995587730}
+  - component: {fileID: -130423010822303769}
+  m_Layer: 5
+  m_Name: Magic036a
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1949570924796162229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &621198866724557324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 656662fbd30fd4e86ad9c35089b3e268, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Magic036a
+  sprite: {fileID: 21300000, guid: fa93f74a2f3c249f38c85962a60b5fce, type: 3}
+  alternateSprite: {fileID: 0}
+  player: {fileID: 0}
+  cardTemplate: {fileID: 0}
+  initialCost: 1
+  level: 1
+  CardUniqueId: 0
+  upgradeCard: {fileID: 0}
+  activatedAbility: {fileID: 8851289510107461979}
+  cardTags:
+  - {fileID: 11400000, guid: 6f485d8f25a4040a78466f13d44dedd3, type: 2}
+  actionAnimation: {fileID: 0}
+  goldWorth: 0
+  temporaryOnly: 0
+  hasToWearWeapon: 0
+--- !u!114 &8851289510107461979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fda4964e3640ad41ac51f47305c9de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 11400000, guid: 50d918a59f0744c789e9f09eae5b37c8, type: 2}
+  otherEffectsTemplate:
+  - {fileID: 867150437659067355, guid: 1b25ca3b016290845b2ec49584274c6a, type: 3}
+  ability: {fileID: 138844212883181895}
+  checkTileEffect: 0
+  useTargetCharges: 0
+  isOppositeOnEffectCheck: 0
+--- !u!114 &138844212883181895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a363328ad0867f4a984ffc61ed42440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  checkCanTargetTile: 0
+  abilities:
+  - {fileID: 5293296849531889706}
+  - {fileID: 7390098777995587730}
+--- !u!114 &5293296849531889706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d76397000ff7542deb85a5f4eee6a3d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  damageAmount: 3
+  useChargesAsDamageAmount: 0
+  exhaustTargetIfDestroyed: 0
+  destroyWeapon: 0
+  triggerUnitDamage: 1
+  useDamageAmount: 1
+--- !u!114 &7390098777995587730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed4688ce09ae44ade85993058c23649d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  otherAbilityToPerform: {fileID: -130423010822303769}
+  targetTileType: 5
+--- !u!114 &-130423010822303769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 657e93a44ab49f046bd740c4a61a58f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  trapPrefab: {fileID: 7970758917794221621, guid: 059d067f2013b75409a3d5897beb203c,
+    type: 3}

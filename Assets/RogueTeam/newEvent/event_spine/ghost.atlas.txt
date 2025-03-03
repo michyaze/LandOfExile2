@@ -1,0 +1,8 @@
+ghost.png
+size:512,512
+filter:Linear,Linear
+pma:true
+ghost
+bounds:283,66,217,255
+ghostfire
+bounds:2,2,279,319

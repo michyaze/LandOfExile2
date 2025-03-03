@@ -1,0 +1,16 @@
+monster_normal_2007.png
+size:512,512
+filter:Linear,Linear
+pma:true
+d1
+bounds:2,98,222,373
+offsets:11,10,244,393
+hand1
+bounds:172,2,117,94
+offsets:9,8,135,111
+hand2
+bounds:226,385,86,86
+offsets:0,0,86,87
+shadow
+bounds:2,22,168,74
+offsets:15,6,198,86

@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1789843390072484534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3205747027490551724}
+  - component: {fileID: 7153543043080617955}
+  m_Layer: 0
+  m_Name: Encounter 5 - Warlock  Shade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3205747027490551724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789843390072484534}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7153543043080617955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789843390072484534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f86c8d82271c4225aca3803981803bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: UndeadEncounter5
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  alwaysOpen: 0
+  boardColumns: 6
+  player1Starts: 1
+  randomStartingPositions: 1
+  player1StartingPos: 15
+  playerAIStartingPos: 0
+  eventInfo:
+    index: 0
+    level: 0
+    eventId: 0
+    eventType: 
+    enemyGroup: 0
+    storyType: 
+    position: {x: 0, y: 0}
+    positionGroup: 0
+    unlockConditionType: 
+    unlockConditionParam: 
+    text: 
+  allOwnedCards:
+  - {fileID: 4222151596656891689, guid: 05365e81072be47dc9430c25b7f268f0, type: 3}
+  signPosts: []
+  shufflePlayerAIDeck: 1
+  initialMana: 3
+  drawsPerTurn: 5
+  level: 5
+  xp: 235
+  extraIntFlag: 0
+  isBoss: 0
+  cannotBeSkipped: 0
+  rewardCards: []
+  forceBattle: 0
+  cardsInPlay: []
+  positionsInPlay: 
+  overridePlayer: 0
+  playerCards: []
+  playerHero: {fileID: 0}
+  playerInitalMana: 0
+  playerDrawsPerTurn: 5
+  shufflePlayerDeck: 1
+  battleMapOverridePrefab: {fileID: 0}
+  randomBattleMap: 0
+  aiControl: {fileID: 0}
+  minObstacleCount: 0
+  maxObstacleCount: 0
+  specialChallengeSkills:
+  - skills:
+    - {fileID: 7756418509735178840, guid: 35beb858469ad934f8537f78ccbfb777, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 7fc1ccf16524540158e5135e16f485fd, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: fa5cc5044e62e43bea76664aad11c394, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: b2282cc69cabd4c86941a28d8716c9c9, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 504cbd135ec4046e0ae12e4551ed820b, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 7fcc4ed0dacc7483eb947d5f27ea14d2, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: a026595e299d3493c9d96f55f7b46741, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: e3a01b41be4b94beb96eebc985ba3bd8, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: ec779743cd0054367b3f8f6a71987873, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 8ef906dcadf7b49449915c68fd1f839b, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 2a4b71e2a514043089dbe1d113b9b010, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 471a0602876184e2caac9649197993c5, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 3f33a944f0e79450195e68a1711c4801, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: c29899d3ecde6460c9c854de303a5055, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: fb101a5ac359fd24398cfc660940c058, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: bc2c1c61f69002e42b7ad1400de9e9e7, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 5ca78ba383eaadc4082c32ba6825e263, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: dccdc046d270d4e3d9cb353d46dee5db, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 0b7a635fca0238e4da1297850b6dff69, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: f6dc47cec81575d42876a327396f2bf1, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 37c2ae3e7fc4efc4999ab5a580f3b55d, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: f83c9ddac9af37d47b5e8caa68c35fb3, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: b6a4c84f0ace41341be9a9d9f86daa64, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: e67060e340c0f4548b86ff0bac09f65b, type: 3}
+  specialChallengeSkillApplyOnCardsInPlay: 0

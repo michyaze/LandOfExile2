@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3667629559149321756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7373133824161269882}
+  - component: {fileID: 621198866724557324}
+  - component: {fileID: 6925941035477319006}
+  - component: {fileID: 9164949418259244070}
+  m_Layer: 5
+  m_Name: Spell - Creation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7373133824161269882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &621198866724557324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 656662fbd30fd4e86ad9c35089b3e268, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Creation
+  sprite: {fileID: 21300000, guid: a824104efd38245d7b603795f82cbf78, type: 3}
+  player: {fileID: 0}
+  cardTemplate: {fileID: 0}
+  initialCost: 1
+  level: 0
+  upgradeCard: {fileID: 0}
+  activatedAbility: {fileID: 6925941035477319006}
+  cardTags:
+  - {fileID: 11400000, guid: 6f485d8f25a4040a78466f13d44dedd3, type: 2}
+  actionAnimation: {fileID: 0}
+--- !u!114 &6925941035477319006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88c90911f7e084a6e963466710cef87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 11400000, guid: 391cd25d8aa824ae8acf7978ff88a0bb, type: 2}
+  abilityToPerform: {fileID: 9164949418259244070}
+  times: 2
+--- !u!114 &9164949418259244070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54bc7e10fd0d94ae4968873d5b93a888, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  minionTemplates:
+  - {fileID: 7762805283351796176, guid: 7fab32701f1574f4dac10c111fe05fdd, type: 3}
+  - {fileID: 7762805283351796176, guid: c6e2a90f5e45f4a088711ad688e7a40a, type: 3}
+  - {fileID: 7762805283351796176, guid: 8e305d52a27b94d9482a7b8bf7d6b2db, type: 3}
+  - {fileID: 7762805283351796176, guid: 7d222160402ab4980820c1df4adbb7df, type: 3}
+  - {fileID: 7762805283351796176, guid: b250738fe366c4158b9465f454846edc, type: 3}
+  - {fileID: 7762805283351796176, guid: 4f947fb3f9afd4439a6afba3695c65a2, type: 3}
+  - {fileID: 7762805283351796176, guid: cd42ae9349ef2416f8ae4ca6dc3baabb, type: 3}
+  - {fileID: 7762805283351796176, guid: 5c5e5f0e9430a47e0862966ae2963ee7, type: 3}
+  - {fileID: 7762805283351796176, guid: a7ae97d170ba246d7aba2e6547d96fc4, type: 3}

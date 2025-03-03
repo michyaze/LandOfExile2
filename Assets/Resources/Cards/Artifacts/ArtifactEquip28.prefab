@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3667629559149321756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1949570924796162229}
+  - component: {fileID: 114145302867826610}
+  - component: {fileID: -3135471893793284275}
+  - component: {fileID: -9041669425152064124}
+  - component: {fileID: -8334833583830688452}
+  - component: {fileID: 7772675015104805854}
+  - component: {fileID: -4522746061175184144}
+  - component: {fileID: -8865274471278429948}
+  - component: {fileID: 1107162082365884587}
+  m_Layer: 5
+  m_Name: ArtifactEquip28
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1949570924796162229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114145302867826610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 151f0b54bd5b544c9870104f0ae792aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: ArtifactEquip28
+  sprite: {fileID: 21300000, guid: 4204954013ec54c91b374ce09255ea74, type: 3}
+  alternateSprite: {fileID: 0}
+  player: {fileID: 0}
+  cardTemplate: {fileID: 0}
+  initialCost: 0
+  level: 0
+  CardUniqueId: 0
+  isCopiedCard: 0
+  isFlying: 0
+  cardTargetType: 0
+  activatedAbility: {fileID: 0}
+  cardTags:
+  - {fileID: 11400000, guid: 66b3ea18c75ce49edaea3a2f4e42d117, type: 2}
+  actionAnimation: {fileID: 0}
+  goldWorth: 30
+  temporaryOnly: 0
+  hasToWearWeapon: 0
+  initialCoolDown: 0
+  currentCoolDown: 0
+  unlockCost: 0
+--- !u!114 &-3135471893793284275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 109448bf472934815b809b66d4cd796d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 11400000, guid: 391cd25d8aa824ae8acf7978ff88a0bb, type: 2}
+  triggerTime: -1
+  targetOnSource: 0
+  performAbilityAfterTrigger: {fileID: 0}
+  triggerType: 1
+  eventMustTriggerOnThisCard: 1
+  abilitiesToCallBelow: 1
+  triggerFilter: {fileID: 0}
+  immediatelyPerform: 0
+--- !u!114 &-9041669425152064124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a363328ad0867f4a984ffc61ed42440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  checkCanTargetTile: 0
+  abilities:
+  - {fileID: -8334833583830688452}
+--- !u!114 &-8334833583830688452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab43747bbc864a87a6486d3fe4b58d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  otherAbility: {fileID: 7772675015104805854}
+  cardTag: {fileID: 0}
+  enemyUnits: 0
+  friendlyUnits: 1
+  minionsOnly: 0
+  upToMaxCount: 0
+  notThisUnit: 0
+  targetOtherUnitType: 0
+--- !u!114 &7772675015104805854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fda4964e3640ad41ac51f47305c9de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  otherEffectsTemplate:
+  - {fileID: 5113365031021135258, guid: 717c463888157fa4fab651dd76801d41, type: 3}
+  ability: {fileID: -4522746061175184144}
+  abilityOnSource: {fileID: 0}
+  elseAbility: {fileID: 0}
+  elseAbilityOnSource: {fileID: 0}
+  checkTileEffect: 0
+  useTargetCharges: 0
+  isOppositeOnEffectCheck: 0
+  checkSource: 0
+--- !u!114 &-4522746061175184144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a363328ad0867f4a984ffc61ed42440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  checkCanTargetTile: 0
+  abilities:
+  - {fileID: -8865274471278429948}
+  - {fileID: 1107162082365884587}
+--- !u!114 &-8865274471278429948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20d089af47ab54b38b8b25b8098485cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  templateEffects:
+  - {fileID: 2657927441502387935, guid: 78ae893d4cf6bf94cb1cc3197408dc5a, type: 3}
+  charges: 01000000
+  notToSelf: 0
+  alsoApplyToAdjacentSameTeamUnits: 0
+  useAmount: 0
+  toHero: 0
+  addAmount: 0
+--- !u!114 &1107162082365884587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19eb773053d6f4b198bf852a113bca8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  templateEffect: {fileID: 5113365031021135258, guid: 717c463888157fa4fab651dd76801d41,
+    type: 3}

@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3667629559149321756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1949570924796162229}
+  - component: {fileID: 621198866724557324}
+  - component: {fileID: 4396660653666038381}
+  - component: {fileID: 7483657416558518417}
+  - component: {fileID: -1713652517742739821}
+  - component: {fileID: -3701102683233915752}
+  - component: {fileID: 437034488064918577}
+  - component: {fileID: -3905229728741453385}
+  - component: {fileID: -4282796580501837169}
+  m_Layer: 5
+  m_Name: Spell - Reforge
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1949570924796162229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &621198866724557324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 656662fbd30fd4e86ad9c35089b3e268, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Reforge
+  sprite: {fileID: 21300000, guid: 251df0c677ae34d3fbd1d04f1243505f, type: 3}
+  alternateSprite: {fileID: 0}
+  player: {fileID: 0}
+  cardTemplate: {fileID: 0}
+  initialCost: 0
+  level: 0
+  CardUniqueId: 0
+  isCopiedCard: 0
+  isFlying: 0
+  cardTargetType: 0
+  activatedAbility: {fileID: 4396660653666038381}
+  cardTags:
+  - {fileID: 11400000, guid: 6f485d8f25a4040a78466f13d44dedd3, type: 2}
+  actionAnimation: {fileID: 0}
+  goldWorth: 0
+  temporaryOnly: 0
+  hasToWearWeapon: 0
+--- !u!114 &4396660653666038381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fda4964e3640ad41ac51f47305c9de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 11400000, guid: 666e820ee982b43e480f907cb663a1c8, type: 2}
+  otherEffectsTemplate:
+  - {fileID: 2384875133163784460, guid: f80771d53addcc640b7cf1d0c60ad598, type: 3}
+  ability: {fileID: 7483657416558518417}
+  abilityOnSource: {fileID: 0}
+  elseAbility: {fileID: 437034488064918577}
+  elseAbilityOnSource: {fileID: 0}
+  checkTileEffect: 0
+  useTargetCharges: 0
+  isOppositeOnEffectCheck: 0
+  checkSource: 0
+--- !u!114 &7483657416558518417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a363328ad0867f4a984ffc61ed42440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  checkCanTargetTile: 0
+  abilities:
+  - {fileID: -1713652517742739821}
+  - {fileID: -3701102683233915752}
+--- !u!114 &-1713652517742739821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b0ddad77ff24e92a6cdae29354b12d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  andExhaust: 0
+--- !u!114 &-3701102683233915752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32fadfab896e64974bf4caf49da34d3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  cardTemplateToSummon: {fileID: 8057222552339870009, guid: 24490ed1d2461174fb1ca06ce0a4654d,
+    type: 3}
+  opposingTeam: 0
+  addCopyEffect: 1
+  copyHP: 0
+  useAmountHP: 0
+--- !u!114 &437034488064918577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a363328ad0867f4a984ffc61ed42440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  checkCanTargetTile: 0
+  abilities:
+  - {fileID: -3905229728741453385}
+  - {fileID: -4282796580501837169}
+--- !u!114 &-3905229728741453385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc5a126de53a6214e8d363208b883732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  templateEffects:
+  - {fileID: -7459042807710917961, guid: bbf0e148945d1c84f9cc6e80b1ee7123, type: 3}
+  - {fileID: -7973929607711314871, guid: 956d99a683134ec40bb5f0a1f5faa8b8, type: 3}
+  - {fileID: 2384875133163784460, guid: f80771d53addcc640b7cf1d0c60ad598, type: 3}
+--- !u!114 &-4282796580501837169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20d089af47ab54b38b8b25b8098485cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 11400000, guid: 666e820ee982b43e480f907cb663a1c8, type: 2}
+  templateEffects:
+  - {fileID: 2384875133163784460, guid: f80771d53addcc640b7cf1d0c60ad598, type: 3}
+  charges: 01000000
+  notToSelf: 0
+  alsoApplyToAdjacentSameTeamUnits: 0
+  useAmount: 0
+  toHero: 0
+  addAmount: 0

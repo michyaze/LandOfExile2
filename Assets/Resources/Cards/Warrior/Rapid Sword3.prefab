@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1118981000718946682
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -1967672585565918513, guid: b92cf06e35b34eb4cb623d2961607159,
+        type: 3}
+      propertyPath: charges.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: b92cf06e35b34eb4cb623d2961607159,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: b92cf06e35b34eb4cb623d2961607159,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: b92cf06e35b34eb4cb623d2961607159,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: b92cf06e35b34eb4cb623d2961607159,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: b92cf06e35b34eb4cb623d2961607159,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: b92cf06e35b34eb4cb623d2961607159,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: b92cf06e35b34eb4cb623d2961607159,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: b92cf06e35b34eb4cb623d2961607159,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: b92cf06e35b34eb4cb623d2961607159,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: b92cf06e35b34eb4cb623d2961607159,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: b92cf06e35b34eb4cb623d2961607159,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3667629559149321756, guid: b92cf06e35b34eb4cb623d2961607159,
+        type: 3}
+      propertyPath: m_Name
+      value: Rapid Sword3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366814498083396299, guid: b92cf06e35b34eb4cb623d2961607159,
+        type: 3}
+      propertyPath: weaponTemplate
+      value: 
+      objectReference: {fileID: 8615100187571129414, guid: 3fb88a9a006b17a43a8e3669208c1ab6,
+        type: 3}
+    - target: {fileID: 8340106675543988603, guid: b92cf06e35b34eb4cb623d2961607159,
+        type: 3}
+      propertyPath: level
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8340106675543988603, guid: b92cf06e35b34eb4cb623d2961607159,
+        type: 3}
+      propertyPath: UniqueID
+      value: Warrior231
+      objectReference: {fileID: 0}
+    - target: {fileID: 8340106675543988603, guid: b92cf06e35b34eb4cb623d2961607159,
+        type: 3}
+      propertyPath: upgradeCard
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b92cf06e35b34eb4cb623d2961607159, type: 3}

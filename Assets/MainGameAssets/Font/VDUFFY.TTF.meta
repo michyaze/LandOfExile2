@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 0e040ebca85db4f29a7243eab6f458e0
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: VNI-Duff
+  fontNames:
+  - VNI-Duff
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 927cef0df34154be79f022008bd1e02d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

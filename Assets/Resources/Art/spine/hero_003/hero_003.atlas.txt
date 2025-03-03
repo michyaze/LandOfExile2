@@ -1,0 +1,10 @@
+hero_003.png
+size:400,536
+filter:Linear,Linear
+pma:true
+hero_rob
+bounds:2,78,396,456
+offsets:44,0,484,456
+shadow
+bounds:2,2,168,74
+offsets:15,6,198,86

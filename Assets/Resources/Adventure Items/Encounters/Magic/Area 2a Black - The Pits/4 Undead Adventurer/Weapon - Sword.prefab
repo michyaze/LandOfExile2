@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3667629559149321756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1949570924796162229}
+  - component: {fileID: 3157582759722749234}
+  - component: {fileID: 2141135554891034710}
+  - component: {fileID: 657163646158189023}
+  m_Layer: 5
+  m_Name: Weapon - Sword
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1949570924796162229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3157582759722749234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e751e3687994cc0aa288172c692c82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: UndeadSword
+  sprite: {fileID: 21300000, guid: c228fa7cd66524a56a4e19d08b4f299c, type: 3}
+  alternateSprite: {fileID: 0}
+  player: {fileID: 0}
+  cardTemplate: {fileID: 0}
+  initialCost: 0
+  level: 0
+  CardUniqueId: 0
+  isCopiedCard: 0
+  isFlying: 0
+  cardTargetType: 0
+  activatedAbility: {fileID: 2141135554891034710}
+  cardTags: []
+  actionAnimation: {fileID: 0}
+  goldWorth: 0
+  temporaryOnly: 0
+  hasToWearWeapon: 0
+  initialPower: 2
+  initialDuality: 4
+  exhaustAfterUsage: 1
+  equipAbility: {fileID: 0}
+  canTargetMinion: 0
+  canTargetHero: 1
+--- !u!114 &2141135554891034710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1a3cfa1775c44b0ad65282a5290ec6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 11400000, guid: 33222093af560485288bb090a878f16b, type: 2}
+  otherAbilitiesToPerform: []
+  skipStandardAttack: 0
+--- !u!114 &657163646158189023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c47727a392644946a4a1b05374d21c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: 
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  remainingCharges: 0
+  originalTemplate: {fileID: 0}
+  isPositive: 0
+  chargesStack: 0
+  canBeRemoved: 1
+  lastApplyTurnCount: 0
+  isVisibleOnCard: 1
+  abilityBeforeApply: {fileID: 0}
+  abilityWhenApply: {fileID: 0}
+  conflictEffects: []
+  abilityWhenConflict: {fileID: 0}
+  stopApplyWhenConflict: 0
+  amountToAdd: 2
+  useChargesAsWell: 0

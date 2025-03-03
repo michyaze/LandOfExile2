@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3667629559149321756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1949570924796162229}
+  - component: {fileID: 8057222552339870009}
+  - component: {fileID: 2059872898000484478}
+  - component: {fileID: 958701681002158801}
+  - component: {fileID: 3449108922031703993}
+  - component: {fileID: 4645756040274471368}
+  - component: {fileID: 3683000672490997094}
+  m_Layer: 5
+  m_Name: Hero - Lizard Defender
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1949570924796162229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8057222552339870009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 110291197ab694d0e9b176ea7feb429f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: LizardDefender
+  sprite: {fileID: 21300000, guid: f2c516c3af1ad407a8c1ae5f5ab4183e, type: 3}
+  player: {fileID: 0}
+  cardTemplate: {fileID: 0}
+  initialCost: 0
+  level: 0
+  upgradeCard: {fileID: 0}
+  activatedAbility: {fileID: 2059872898000484478}
+  cardTags: []
+  actionAnimation: {fileID: 0}
+  achievementRestricted: 0
+  goldWorth: 0
+  initialPower: 1
+  initialHP: 15
+  initialMoves: 1
+  initialActions: 1
+  currentPower: 0
+  currentHP: 0
+  remainingMoves: 0
+  remainingActions: 0
+  movementType: {fileID: 11400000, guid: 6c93214942b4546ce96b3843a38f9a7a, type: 2}
+  summoningType: {fileID: 0}
+  currentEffects: []
+  attackingSound:
+    SoundSource: 0
+    DatabaseName: General
+    SoundName: No Sound
+    AudioClip: {fileID: 0}
+    OutputAudioMixerGroup: {fileID: 0}
+  damagedSound:
+    SoundSource: 0
+    DatabaseName: General
+    SoundName: No Sound
+    AudioClip: {fileID: 0}
+    OutputAudioMixerGroup: {fileID: 0}
+  deathSound:
+    SoundSource: 0
+    DatabaseName: General
+    SoundName: No Sound
+    AudioClip: {fileID: 0}
+    OutputAudioMixerGroup: {fileID: 0}
+  weapon: {fileID: 0}
+  startingEffects: []
+  startingEffectCharges: 
+  intentSystem: {fileID: 0}
+--- !u!114 &2059872898000484478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1a3cfa1775c44b0ad65282a5290ec6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 11400000, guid: 33222093af560485288bb090a878f16b, type: 2}
+  otherAbilitiesToPerform: []
+  skipStandardAttack: 0
+--- !u!114 &958701681002158801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 616139f65a06841fd886e3a894e46f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  powerEffectTemplate: {fileID: 7030435189720330900, guid: 778719a2a6d0e4bffb638ffd5eb730f3,
+    type: 3}
+  charges: 2
+  eggTemplate: {fileID: 7762805283351796176, guid: 33e4b99fa7dd14a1daea13c5278aa9ad,
+    type: 3}
+--- !u!114 &3449108922031703993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79151cc0435b4454db5036c73cb3ed4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  hands:
+  - {fileID: 4645756040274471368}
+  - {fileID: 3683000672490997094}
+  handIndex: 0
+--- !u!114 &4645756040274471368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd60020892f7444da90403397f27f566, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  cards:
+  - {fileID: 7762805283351796176, guid: 33e4b99fa7dd14a1daea13c5278aa9ad, type: 3}
+  - {fileID: 7762805283351796176, guid: 33e4b99fa7dd14a1daea13c5278aa9ad, type: 3}
+  ferocityACards:
+  - {fileID: 7762805283351796176, guid: 33e4b99fa7dd14a1daea13c5278aa9ad, type: 3}
+--- !u!114 &3683000672490997094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd60020892f7444da90403397f27f566, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  cards:
+  - {fileID: 6807118950767606451, guid: 7261c17328b584ae48e203b4bb63aa92, type: 3}
+  ferocityACards:
+  - {fileID: 6807118950767606451, guid: 7261c17328b584ae48e203b4bb63aa92, type: 3}

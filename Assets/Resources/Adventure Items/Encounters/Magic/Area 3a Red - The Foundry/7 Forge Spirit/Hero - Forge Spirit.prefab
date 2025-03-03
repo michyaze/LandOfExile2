@@ -1,0 +1,433 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3667629559149321756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1949570924796162229}
+  - component: {fileID: 8057222552339870009}
+  - component: {fileID: 983534166668614625}
+  - component: {fileID: 4490111510881892447}
+  - component: {fileID: 8056290208565519714}
+  - component: {fileID: 8163647488710435459}
+  - component: {fileID: 1168390226267787885}
+  - component: {fileID: -4322329094646415058}
+  - component: {fileID: 2633961126251609379}
+  - component: {fileID: -166920223038192079}
+  - component: {fileID: -756120765833753517}
+  - component: {fileID: -415366084406587249}
+  - component: {fileID: 7721269562704163289}
+  - component: {fileID: 6505795777088768573}
+  - component: {fileID: -2616235998222890682}
+  - component: {fileID: -6238487123876799182}
+  - component: {fileID: 4218075013878168116}
+  - component: {fileID: 3001827579784479997}
+  m_Layer: 5
+  m_Name: Hero - Forge Spirit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1949570924796162229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8057222552339870009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 110291197ab694d0e9b176ea7feb429f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: ForgeSpirit
+  sprite: {fileID: 21300000, guid: 12fcc21b41a224387884668c2c328abe, type: 3}
+  alternateSprite: {fileID: 0}
+  player: {fileID: 0}
+  cardTemplate: {fileID: 0}
+  initialCost: 0
+  level: 0
+  CardUniqueId: 0
+  isCopiedCard: 0
+  isFlying: 0
+  cardTargetType: 0
+  activatedAbility: {fileID: 983534166668614625}
+  cardTags: []
+  actionAnimation: {fileID: 1928137150472329698, guid: c43ed5a84f36048bbbb407c3caa8c377,
+    type: 3}
+  goldWorth: 0
+  temporaryOnly: 0
+  weapon: {fileID: 0}
+  initialPower: 3
+  initialHP: 75
+  initialMoves: 1
+  initialActions: 1
+  currentPower: 0
+  currentHP: 0
+  remainingMoves: 0
+  currentDamageReduction: 0
+  remainingActions: 0
+  movementType: {fileID: 11400000, guid: 6c93214942b4546ce96b3843a38f9a7a, type: 2}
+  originalActivatedAbility: {fileID: 0}
+  originalActionAnimation: {fileID: 0}
+  summoningType: {fileID: 0}
+  currentEffects: []
+  attackingSound:
+    SoundSource: 0
+    DatabaseName: General
+    SoundName: No Sound
+    AudioClip: {fileID: 0}
+    OutputAudioMixerGroup: {fileID: 0}
+  damagedSound:
+    SoundSource: 0
+    DatabaseName: General
+    SoundName: No Sound
+    AudioClip: {fileID: 0}
+    OutputAudioMixerGroup: {fileID: 0}
+  deathSound:
+    SoundSource: 0
+    DatabaseName: General
+    SoundName: No Sound
+    AudioClip: {fileID: 0}
+    OutputAudioMixerGroup: {fileID: 0}
+  lastTile: {fileID: 0}
+  startingEffects:
+  - {fileID: 134861041769149801, guid: 1dcaab8210b1e43db9a79826442a7e20, type: 3}
+  startingEffectCharges: 02000000
+  tempStartingEffects: []
+  tempStartingEffectCharges: 
+  intentSystem: {fileID: 0}
+--- !u!114 &983534166668614625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 016bd3cf08d4745e9b9155a3ef7a95c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 11400000, guid: 33222093af560485288bb090a878f16b, type: 2}
+  otherAbilitiesToPerform:
+  - {fileID: 0}
+  skipStandardAttack: 0
+  friendlyTargetAbility: {fileID: 0}
+--- !u!114 &4490111510881892447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79151cc0435b4454db5036c73cb3ed4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  triggerTime: -1
+  targetOnSource: 0
+  performAbilityAfterTrigger: {fileID: 0}
+  hands:
+  - {fileID: 8056290208565519714}
+  - {fileID: 8163647488710435459}
+  - {fileID: 1168390226267787885}
+  - {fileID: -4322329094646415058}
+  handIndex: 0
+--- !u!114 &8056290208565519714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd60020892f7444da90403397f27f566, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  triggerTime: -1
+  targetOnSource: 0
+  performAbilityAfterTrigger: {fileID: 0}
+  cards:
+  - {fileID: 7762805283351796176, guid: f48f1094fd5704766b12b92c174d9c80, type: 3}
+  - {fileID: 7762805283351796176, guid: f48f1094fd5704766b12b92c174d9c80, type: 3}
+  - {fileID: 7762805283351796176, guid: 5c5e5f0e9430a47e0862966ae2963ee7, type: 3}
+  ferocityACards: []
+--- !u!114 &8163647488710435459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd60020892f7444da90403397f27f566, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  triggerTime: -1
+  targetOnSource: 0
+  performAbilityAfterTrigger: {fileID: 0}
+  cards:
+  - {fileID: 621198866724557324, guid: 2d9c5f1c5f488a74a865b269d0ea5731, type: 3}
+  ferocityACards:
+  - {fileID: 621198866724557324, guid: 143fd100afe8440499949d5ebf646ce4, type: 3}
+--- !u!114 &1168390226267787885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd60020892f7444da90403397f27f566, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  triggerTime: -1
+  targetOnSource: 0
+  performAbilityAfterTrigger: {fileID: 0}
+  cards:
+  - {fileID: 7762805283351796176, guid: f48f1094fd5704766b12b92c174d9c80, type: 3}
+  - {fileID: 7762805283351796176, guid: f48f1094fd5704766b12b92c174d9c80, type: 3}
+  - {fileID: 7762805283351796176, guid: 5c5e5f0e9430a47e0862966ae2963ee7, type: 3}
+  ferocityACards: []
+--- !u!114 &-4322329094646415058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd60020892f7444da90403397f27f566, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  triggerTime: -1
+  targetOnSource: 0
+  performAbilityAfterTrigger: {fileID: 0}
+  cards:
+  - {fileID: 5061203476590228920, guid: b6e9c697f552a4a28a7d0fb92d703565, type: 3}
+  - {fileID: 621198866724557324, guid: 2d9c5f1c5f488a74a865b269d0ea5731, type: 3}
+  ferocityACards: []
+--- !u!114 &2633961126251609379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bba15c89183db140a812a5953201a3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  triggerTime: -1
+  targetOnSource: 0
+  performAbilityAfterTrigger: {fileID: 0}
+  otherAbility: {fileID: -166920223038192079}
+  effectTemplates:
+  - {fileID: 867150437659067355, guid: 517a716b458290a4aba90ae94847e5c5, type: 3}
+  eventMustTriggerOnThisCard: 1
+  useHeroIfNoSourceUnit: 0
+  checkValidation: 0
+--- !u!114 &-166920223038192079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a363328ad0867f4a984ffc61ed42440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  checkCanTargetTile: 0
+  abilities:
+  - {fileID: -415366084406587249}
+  - {fileID: -756120765833753517}
+--- !u!114 &-756120765833753517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20d089af47ab54b38b8b25b8098485cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  templateEffects:
+  - {fileID: 930637560813609583, guid: ae85a976a4e6199499e6b95f2fd33327, type: 3}
+  - {fileID: 9057491434903720796, guid: fc170a4c901404070875f42ef33f9914, type: 3}
+  - {fileID: 867150437659067355, guid: d0d7d37bd857c1046a6e22f2ce6edd38, type: 3}
+  charges: 020000000300000001000000
+  notToSelf: 0
+  alsoApplyToAdjacentSameTeamUnits: 0
+  useAmount: 0
+  toHero: 0
+  addAmount: 0
+--- !u!114 &-415366084406587249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50d4f1a59efa49743a82eff7b6c19f8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  templateEffect: {fileID: 134861041769149801, guid: 1dcaab8210b1e43db9a79826442a7e20,
+    type: 3}
+  charges: 2
+  toHero: 0
+  useAmount: 0
+--- !u!114 &7721269562704163289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb8d66baf38d5404e87933aa2362ab66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  triggerTime: -1
+  targetOnSource: 0
+  performAbilityAfterTrigger: {fileID: 0}
+  otherAbility: {fileID: 6505795777088768573}
+  effectTemplates:
+  - {fileID: 867150437659067355, guid: 517a716b458290a4aba90ae94847e5c5, type: 3}
+  eventMustTriggerOnThisCard: 1
+--- !u!114 &6505795777088768573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a363328ad0867f4a984ffc61ed42440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  checkCanTargetTile: 0
+  abilities:
+  - {fileID: -6238487123876799182}
+  - {fileID: 4218075013878168116}
+  - {fileID: 3001827579784479997}
+  - {fileID: -2616235998222890682}
+--- !u!114 &-2616235998222890682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20d089af47ab54b38b8b25b8098485cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  templateEffects:
+  - {fileID: 134861041769149801, guid: 1dcaab8210b1e43db9a79826442a7e20, type: 3}
+  charges: 02000000
+  notToSelf: 0
+  alsoApplyToAdjacentSameTeamUnits: 0
+  useAmount: 0
+  toHero: 0
+  addAmount: 0
+--- !u!114 &-6238487123876799182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50d4f1a59efa49743a82eff7b6c19f8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  templateEffect: {fileID: 930637560813609583, guid: ae85a976a4e6199499e6b95f2fd33327,
+    type: 3}
+  charges: 2
+  toHero: 0
+  useAmount: 0
+--- !u!114 &4218075013878168116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50d4f1a59efa49743a82eff7b6c19f8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  templateEffect: {fileID: 9057491434903720796, guid: fc170a4c901404070875f42ef33f9914,
+    type: 3}
+  charges: 3
+  toHero: 0
+  useAmount: 0
+--- !u!114 &3001827579784479997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3667629559149321756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50d4f1a59efa49743a82eff7b6c19f8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetValidator: {fileID: 0}
+  templateEffect: {fileID: 867150437659067355, guid: d0d7d37bd857c1046a6e22f2ce6edd38,
+    type: 3}
+  charges: 1
+  toHero: 0
+  useAmount: 0

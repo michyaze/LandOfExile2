@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &667485897519640161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5716493865408337644}
+  - component: {fileID: 3646574837182153450}
+  - component: {fileID: 8198730721438619061}
+  m_Layer: 0
+  m_Name: Area 3 Red - The Foundry
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5716493865408337644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667485897519640161}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3646574837182153450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667485897519640161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec7e7868eb57f49ce97ea1532e0bd8ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Area03
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  enemies:
+  - {fileID: 7153543043080617955, guid: f70be5c0c922046fe834fa1db31c6086, type: 3}
+  - {fileID: 7153543043080617955, guid: 95320bd07a90f452e81ba6290b31f2dc, type: 3}
+  - {fileID: 7153543043080617955, guid: 5afd1c5481ecb44a5b45105bfea7fd87, type: 3}
+  - {fileID: 7153543043080617955, guid: 8cb1e51fdc2aa405db046d743d243508, type: 3}
+  - {fileID: 7153543043080617955, guid: 6465df09dc16842fab6067a3b3f88a8a, type: 3}
+  - {fileID: 7153543043080617955, guid: 551e3a091f4b240b7b7f58e431a082cf, type: 3}
+  - {fileID: 7153543043080617955, guid: 02c6559a508234bb0b660d6c98183a2f, type: 3}
+  - {fileID: 7153543043080617955, guid: 27535ce2044f94ad4bcc982deddf6839, type: 3}
+  - {fileID: 7153543043080617955, guid: 304963117d40149388503c638d3360ff, type: 3}
+  - {fileID: 7153543043080617955, guid: 04946dad67dea40e5a9d24c04209bcd0, type: 3}
+  bosses:
+  - {fileID: 7153543043080617955, guid: 8ee4ebd37e8e94b2c9feaa5bf21803ec, type: 3}
+  battleMapBGPrefabs:
+  - {fileID: 7618853770591451236, guid: 94a955f9d59e446dd8c5f2732fc4881a, type: 3}
+  - {fileID: 7618853770591451236, guid: 0f84a69caa7b1904ab648b7c8b554c1b, type: 3}
+  - {fileID: 7618853770591451236, guid: 3d5efbacf3ed74851ac7ecf6fed22fae, type: 3}
+  - {fileID: 7618853770591451236, guid: 5d177bc4179184589a665d54b378e6ea, type: 3}
+  - {fileID: 7618853770591451236, guid: eb6ff5b57da82493e94b5fc3260c5547, type: 3}
+  alternateBattleMapBGPrefabs: []
+  choiceButtonSprite: {fileID: 21300000, guid: c9cd9a1744b23402999e59c403f09635, type: 3}
+  mapRoomSprites:
+  - {fileID: 21300000, guid: fe10d345d05ce43a8b3b45a5f60b1f2d, type: 3}
+  - {fileID: 21300000, guid: bbb050dbf02e84352827125b4ea41ec5, type: 3}
+  - {fileID: 21300000, guid: 1b1f1398d40d74110a1935acbf1d8502, type: 3}
+  alternateMapRoomSprites: []
+  cardFrontSprites:
+  - {fileID: 21300000, guid: c102a7e76ab904822869b44d5fc260b1, type: 3}
+  - {fileID: 21300000, guid: 3c3985e3f2d074ff08606b06f46cac18, type: 3}
+  - {fileID: 21300000, guid: 93565d45186b848a684f3139a7fef00a, type: 3}
+  boardCardHeroSprite: {fileID: 21300000, guid: 2b8530ade8a2241e0b357e7d5cca56c5,
+    type: 3}
+  boardCardMinionSprite: {fileID: 21300000, guid: 72f5129f1399d474297deace8967f618,
+    type: 3}
+  cardHistoryBorderColor: {r: 0.6132076, g: 0, b: 0, a: 1}
+  bigMapSprite: {fileID: 21300000, guid: 71ad26b5b46a2ee43b0b8df86d1f1527, type: 3}
+  levelId: 3
+  xScale: 0.7
+  yScale: 0.71
+  obstacle: {fileID: 9023387019244983980, guid: d097f818c811c704c814a79d216937ad,
+    type: 3}
+--- !u!114 &8198730721438619061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667485897519640161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ece2343d75b8488fb1a163dd2b7e2fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yOffset: -120

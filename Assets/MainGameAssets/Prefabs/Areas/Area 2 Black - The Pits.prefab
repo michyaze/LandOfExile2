@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &667485897519640161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5716493865408337644}
+  - component: {fileID: 3646574837182153450}
+  - component: {fileID: 6668058512451772690}
+  m_Layer: 0
+  m_Name: Area 2 Black - The Pits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5716493865408337644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667485897519640161}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3646574837182153450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667485897519640161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec7e7868eb57f49ce97ea1532e0bd8ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Area02
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  enemies:
+  - {fileID: 7153543043080617955, guid: dd9925e5e5db64e3e8a721bf34a99448, type: 3}
+  - {fileID: 7153543043080617955, guid: 64c1bf67da7a64804a418b43b8a4e569, type: 3}
+  - {fileID: 7153543043080617955, guid: 9fa94c7d2544c4be4a34c31c27a10b2a, type: 3}
+  - {fileID: 7153543043080617955, guid: 050e20022d9f14f9f8727e9783180a37, type: 3}
+  - {fileID: 7153543043080617955, guid: 912eeba0ad2904e67932ef1d34d9d070, type: 3}
+  - {fileID: 7153543043080617955, guid: e37ec002122974866805d6a96c1685a6, type: 3}
+  - {fileID: 7153543043080617955, guid: 5687e62538df44b948862b251ea6ca85, type: 3}
+  - {fileID: 7153543043080617955, guid: 12c22e4196a13432887c8969d4596fdc, type: 3}
+  - {fileID: 7153543043080617955, guid: 59b761a457f414398bcc28c4afc3110f, type: 3}
+  - {fileID: 7153543043080617955, guid: 174967550debd427aa3b9e53d4c360d7, type: 3}
+  - {fileID: 7153543043080617955, guid: bff12320f4a1b46cd88b57e9aeb0657a, type: 3}
+  - {fileID: 7153543043080617955, guid: 5baaf9d3d26bd4485928380ced7dba87, type: 3}
+  - {fileID: 7153543043080617955, guid: d20e06d0a2133488481f368efb33c84a, type: 3}
+  - {fileID: 7153543043080617955, guid: bb6282419b6de46fcbb48d179c8af504, type: 3}
+  bosses:
+  - {fileID: 7153543043080617955, guid: 603b1ab8c3509418c8ba79fff83abb07, type: 3}
+  - {fileID: 7153543043080617955, guid: ee9aef09100d545dfa3d5449e79fc28b, type: 3}
+  battleMapBGPrefabs:
+  - {fileID: 7618853770591451236, guid: e44f0fd91e59a4f57a78be0dce17684b, type: 3}
+  - {fileID: 7618853770591451236, guid: c48750a1e0a7cd84391d1c1f178749ea, type: 3}
+  - {fileID: 7618853770591451236, guid: 0a0b618727d394a1494cbc13ff7ea93f, type: 3}
+  - {fileID: 7618853770591451236, guid: bc7b01f4536544ef08b115b78456fcba, type: 3}
+  - {fileID: 7618853770591451236, guid: 509562bdb8e0f429fac782cd7fcea76e, type: 3}
+  alternateBattleMapBGPrefabs:
+  - {fileID: 7618853770591451236, guid: fe998efca18a044a88a9018558a7f7e6, type: 3}
+  - {fileID: 7618853770591451236, guid: d6befad8d3cc84cbd98914f12ff205fb, type: 3}
+  - {fileID: 7618853770591451236, guid: 73c4382c728e54a8fb7635f829c44e05, type: 3}
+  - {fileID: 7618853770591451236, guid: b236200c794574c6fb61d4271dc40d47, type: 3}
+  choiceButtonSprite: {fileID: 21300000, guid: 779facfec0f72440da44cc865ec239c7, type: 3}
+  mapRoomSprites:
+  - {fileID: 21300000, guid: f1acf2391945a427da0d4cc31f91cd66, type: 3}
+  - {fileID: 21300000, guid: a1f02165c6c0f4fb489fb4c0579eba90, type: 3}
+  - {fileID: 21300000, guid: 9847b23aeb29445a785594d4d7ef4ab9, type: 3}
+  alternateMapRoomSprites:
+  - {fileID: 21300000, guid: 5b771ee1f43274489b08ae71cf032c20, type: 3}
+  - {fileID: 21300000, guid: 3b9bc9271cb034d65956d2a18e8b4e57, type: 3}
+  - {fileID: 21300000, guid: 61d93a7b330584859986f0225a049c10, type: 3}
+  cardFrontSprites:
+  - {fileID: 21300000, guid: 6f63712a666c143b08aa81896f9d1450, type: 3}
+  - {fileID: 21300000, guid: 6006cc7b296fe4958a46ace969a6df06, type: 3}
+  - {fileID: 21300000, guid: 2866cdf56fa4d4a95961635774d5adc1, type: 3}
+  boardCardHeroSprite: {fileID: 21300000, guid: ed10f03b15f28444bb6916b179fad83f,
+    type: 3}
+  boardCardMinionSprite: {fileID: 21300000, guid: ae20f507ada32488bab3202a90530009,
+    type: 3}
+  cardHistoryBorderColor: {r: 0.16981131, g: 0.09211463, b: 0.16033944, a: 1}
+  bigMapSprite: {fileID: 21300000, guid: bf7475172d7f464419853e0b604f68da, type: 3}
+  levelId: 2
+  xScale: 0.7
+  yScale: 0.71
+  obstacle: {fileID: 9023387019244983980, guid: 8b2eca2ce10013c41833ca003ff684a1,
+    type: 3}
+--- !u!114 &6668058512451772690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667485897519640161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ece2343d75b8488fb1a163dd2b7e2fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yOffset: -120

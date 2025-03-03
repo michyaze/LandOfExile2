@@ -1,0 +1,577 @@
+DO NOT EDIT THIS SHEET - edit the other tabs instead				
+Loot				
+Loot01			50	50
+Loot02			50	50
+Loot03			50	50
+Loot13			50	50
+Loot14			50	50
+Loot15			50	50
+Loot29			50	50
+Loot34			50	50
+Loot35			50	50
+Loot36			50	50
+			50	50
+Treasure			50	50
+Treasure01			50	50
+Treasure02			50	50
+Treasure03			50	50
+Treasure04			50	50
+Treasure05			50	50
+Treasure06			50	50
+Treasure07			50	50
+Treasure08			50	50
+Treasure09			50	50
+Treasure10			50	50
+Treasure11			50	50
+Treasure12			50	50
+Treasure13			50	50
+Treasure14			50	50
+Treasure15			50	50
+Treasure16			50	50
+Treasure17			50	50
+Treasure18			50	50
+Treasure19			50	50
+Treasure20			50	50
+Treasure21			50	50
+Treasure22			50	50
+Treasure23			50	50
+Treasure24			50	50
+Treasure25			50	50
+Treasure26			50	50
+Treasure27			50	50
+Treasure28			50	50
+Treasure29			50	50
+Treasure30			50	50
+Treasure31			50	50
+			50	50
+			50	50
+			50	50
+			50	50
+			50	50
+			50	50
+			50	50
+			50	50
+Warrior				
+Warrior02			50	50
+Warrior03			50	50
+Warrior04			50	50
+Warrior05			50	50
+Warrior06			50	50
+Warrior07			50	50
+Warrior08			50	50
+Warrior09			50	50
+Warrior10			50	50
+Warrior11			50	50
+Warrior12			50	50
+Warrior13			50	50
+Warrior14			50	50
+Warrior15			50	50
+Warrior16			50	50
+Warrior17			50	50
+Warrior18			50	50
+Warrior19			50	50
+Warrior20			50	50
+Warrior21			50	50
+Warrior22			50	50
+Warrior23			50	50
+Warrior24			50	50
+Warrior25			50	50
+Warrior26			50	50
+Warrior27			50	50
+Warrior28			50	50
+Warrior29			50	50
+Warrior30			50	50
+Warrior31			50	50
+Warrior32			50	50
+Warrior33			50	50
+Warrior34			50	50
+Warrior35			50	50
+Warrior36			50	50
+Warrior37			50	50
+Warrior38			50	50
+Warrior39			50	50
+Warrior40			50	50
+Warrior41			50	50
+Warrior42			50	50
+Warrior43			50	50
+Warrior44			50	50
+Warrior45			50	50
+Warrior46			50	50
+Warrior47			50	50
+Warrior47a			50	50
+Warrior47b			50	50
+			50	50
+Unlocks			50	50
+WarriorRed01			50	50
+WarriorRed02			50	50
+WarriorRed03			50	50
+WarriorRed04			50	50
+WarriorRed05			50	50
+WarriorRed06			50	50
+WarriorRed07			50	50
+WarriorRed08			50	50
+			50	50
+WarriorBlack01			50	50
+WarriorBlack02			50	50
+WarriorBlack03			50	50
+WarriorBlack04			50	50
+WarriorBlack05			50	50
+WarriorBlack06			50	50
+WarriorBlack07			50	50
+WarriorBlack08			50	50
+				
+				
+				
+				
+				
+Mage				
+Cards			50	50
+Mage01			50	50
+Mage02			50	50
+Mage03			50	50
+Mage04			50	50
+Mage05			50	50
+Mage06			50	50
+Mage07			50	50
+Mage08			50	50
+Mage08a				
+Mage08b				
+Mage09			50	50
+Mage10			50	50
+Mage11			50	50
+Mage12			50	50
+Mage13			50	50
+Mage13a				
+Mage13b				
+Mage14			50	50
+Mage14a				
+Mage14b				
+Mage15			50	50
+Mage15a				
+Mage15b				
+Mage16			50	50
+Mage16a				
+Mage16b				
+Mage17			50	50
+Mage17a				
+Mage17b				
+Mage18			50	50
+Mage18a				
+Mage18b				
+Mage19			50	50
+Mage19a				
+Mage19b				
+Mage20			50	50
+Mage20a				
+Mage20b				
+Mage21			50	50
+Mage22			50	50
+Mage22a				
+Mage22b				
+Mage23			50	50
+Mage23a				
+Mage23b				
+Mage24			50	50
+Mage24a				
+Mage24b				
+Mage25			50	50
+Mage25a				
+Mage25b				
+Mage26			50	50
+Mage26a				
+Mage26b				
+Mage27			50	50
+Mage28			50	50
+Mage29			50	50
+Mage30			50	50
+Mage30a				
+Mage30b				
+Mage31			50	50
+Mage32			50	50
+Mage33			50	50
+Mage33a				
+Mage33b				
+Mage34			50	50
+Mage34a				
+Mage34b				
+Mage35			50	50
+Mage36			50	50
+Mage36a				
+Mage36b				
+Mage37			50	50
+Mage38			50	50
+Mage39			50	50
+Mage39a				
+Mage39b				
+Mage40			50	50
+Mage41			50	50
+Mage42			50	50
+Mage43			50	50
+Mage44			50	50
+Mage45			50	50
+Mage46			50	50
+Mage46a				
+Mage46b				
+Mage47			50	50
+Mage48			50	50
+Mage48a				
+Mage48b				
+Mage49			50	50
+Mage50			50	50
+Mage50a				
+Mage51			50	50
+Mage52			50	50
+Mage52a				
+Mage53			50	50
+Mage54			50	50
+Mage54a				
+Mage56			50	75
+Mage57			50	50
+Mage58			50	75
+Mage59			50	50
+Mage60			50	50
+				
+				
+Unlocks			50	50
+MageRed01			50	50
+MageRed02			50	50
+MageRed03			50	50
+MageRed04			50	50
+MageRed05			50	50
+MageRed06			50	50
+MageRed07			50	50
+MageRed08			50	50
+			50	50
+MageBlack01			50	50
+MageBlack02			50	50
+MageBlack03			50	50
+MageBlack04			50	50
+MageBlack05			50	50
+MageBlack06			50	50
+MageBlack07			50	50
+MageBlack08			50	50
+MageBlack09			50	50
+				
+				
+				
+				
+Rogue				
+Cards				
+Rogue01			50	50
+Rogue02			50	50
+Rogue03			50	50
+Rogue04			50	50
+Rogue05			50	50
+Rogue06			50	50
+Rogue07			50	50
+Rogue08			50	50
+Rogue09			50	50
+Rogue10			50	50
+Rogue11			50	50
+Rogue12			50	50
+Rogue13			50	50
+Rogue14			50	50
+Rogue15			50	50
+Rogue16			50	50
+Rogue17			50	50
+Rogue18			50	50
+Rogue19			50	50
+Rogue20			50	50
+Rogue21			50	50
+Rogue22			50	50
+Rogue23			50	50
+Rogue24			50	50
+Rogue25			50	50
+Rogue26			50	50
+Rogue27			50	50
+Rogue28			50	50
+Rogue29			50	50
+Rogue30			50	50
+Rogue31			50	50
+Rogue32			50	50
+Rogue33			50	50
+Rogue34			50	50
+Rogue35			50	50
+Rogue36			50	50
+Rogue37			50	50
+Rogue38			50	50
+Rogue39			50	50
+Rogue40			50	50
+Rogue41			50	50
+Rogue42			50	50
+Rogue43			50	50
+Rogue44			50	50
+Rogue45			50	50
+Rogue46			50	50
+Rogue47			50	50
+Rogue48			50	50
+Rogue49			50	50
+Rogue50			50	50
+Rogue51			50	50
+Rogue52			50	50
+Rogue53			50	50
+Rogue54			50	50
+Rogue55			50	50
+Rogue56			50	50
+Rogue57			50	50
+Rogue58			50	50
+Rogue59			50	50
+Rogue60			50	50
+Rogue61			50	50
+				
+				
+				
+				
+Red - Helm				
+Red01	8	Haste, PBuff, Swarm	50	50
+Red02	8	Haste, PBuff, Swarm	50	50
+Red03	8	Haste, PBuff, Swarm	50	50
+Red04	8	Haste, PBuff	50	50
+Red05	8	Haste, PBuff	50	50
+Red06	8	Haste, PBuff	50	50
+Red07	8	Haste, PBuff	50	50
+Red08	8	Haste, PBuff, Swarm	50	50
+Red09	8	Haste, PBuff, Swarm	50	50
+Red10	8	Swarm	50	50
+Red11	8	Swarm	50	50
+Red12	8	Swarm	50	50
+Red13	8		50	50
+Red14	8		50	50
+Red15	8		50	50
+Red16	8		50	50
+Red17	8	Control	50	50
+Red18	8	Control	50	50
+Red19	8	Control	50	50
+Red20	8	Control	50	50
+Red21	8	Control	50	50
+Red22	8	Hound, Haste	35	50
+Red23	8	Hound, Haste	35	50
+Red24	8	Hound, Haste	35	50
+Red25	8	Control	50	50
+Red26	8	Control	50	50
+Red27	8	Control	50	50
+Red28	8	Burn	50	50
+Red29	8	Burn	50	50
+Red30	8	Burn	50	50
+Red31	8	Control	50	50
+Red32	8	Control	50	50
+Red33	8	Control	50	50
+Red34	8	PBuff	50	50
+Red35	8	PBuff	50	50
+Red36	8	PBuff	50	50
+Red37	8	PBuff	50	50
+Red38	8	PBuff	50	50
+Red39	8	PBuff	50	50
+Red40	8	Swarm	50	50
+Red41	8	Swarm	50	50
+Red42	8	Swarm	50	50
+Red43	8	Control	50	50
+Red44	8	Control	50	50
+Red45	8	Control	50	50
+Red46	8	Haste	50	50
+Red47	8	Haste	50	50
+Red48	8	Haste	50	50
+Red49	8	Hound	50	71
+Red50	8		50	50
+Red51	8		50	50
+Red52	8	Control	50	50
+Red53	8	Control	50	50
+Red54	8	Control	50	50
+Red55	8	Control	50	50
+Red56	8		50	50
+Red57	8		50	50
+Red58	8		50	50
+Red59	8	Control	50	71
+Red60	8	Control	50	71
+Red61	8	PBuff	50	50
+Red62	8	PBuff	50	50
+Red63	8	PBuff	50	50
+Red64	8	Burn	50	50
+Red65	8	Burn	50	50
+Red66	8	Burn	50	50
+Red67	8	Burn	50	50
+Red68	8	Burn	50	50
+Red69	8	Burn	50	50
+Red70	8		50	50
+Red71	8		50	50
+Red72	8		50	50
+Red73	8		50	50
+Red74	8		50	50
+Red75	8		50	50
+Red76	8	PBuff	50	50
+Red77	8	PBuff	50	50
+Red78	8	PBuff	50	50
+Red79	8		50	50
+Red80	8		50	50
+Red81	8		50	50
+Red82	8	PBuff	35	50
+Red83	8	PBuff	35	50
+Red84	8	PBuff	35	50
+Red85	8	PBuff	50	50
+Red86	8	PBuff	50	50
+Red87	8	PBuff	50	50
+Red88	8		50	50
+Red89	8		50	50
+Red90	8		50	50
+Red91	8	PBuff	50	50
+Red92	8	PBuff	50	50
+Red93	8	PBuff	50	50
+Red94	8		50	50
+Red95	8		50	50
+Red96	8		50	50
+Red97	8		50	50
+Red98	8		50	50
+Red99	8		50	50
+Red100	8		50	50
+Red101	8		50	50
+Red102	8		50	50
+Red103	8		50	50
+Red104	8		50	50
+Red105	8		50	50
+Red106	8		50	50
+Red107	8		50	50
+Red108	8		50	50
+Red109	8		50	50
+Red110	8		50	50
+Red111	8		50	50
+Red112	8		50	50
+Red113	8		50	50
+Red114	8		50	50
+Red115	8		50	50
+Red116	8		50	50
+Red117	8		50	50
+Red118	8		50	50
+Red119	8		50	50
+Red120	8		50	50
+				
+				
+				
+Black - Karim				
+Black01	8		50	50
+Black02	8		50	50
+Black03	8		50	50
+Black04	8		50	50
+Black05	8	Sacrifice	50	50
+Black06	8	Sacrifice	50	50
+Black07	8	Sacrifice	50	50
+Black08	8	Blacksteel	50	50
+Black09	8	Blacksteel	50	50
+Black10	8	Blacksteel	50	50
+Black11	8		50	50
+Black12	8		50	50
+Black13	8		50	50
+Black14	8	Sacrifice	50	50
+Black15	8	Sacrifice	50	50
+Black16	8	Sacrifice	50	50
+Black17	8	Sacrifice	50	50
+Black18	8	Sacrifice	50	50
+Black19	8	Sacrifice	50	50
+Black20	8		50	50
+Black21	8	Sacrifice	50	50
+Black22	8		50	50
+Black23	8		71	50
+Black24	8		50	50
+Black25	8		50	50
+Black26	8		50	50
+Black27	8	Blacksteel	50	50
+Black28	8	Raze	50	50
+Black29	8	Raze	50	50
+Black30	8	Raze	50	50
+Black31	8	Raze	50	50
+Black32	8	Sacrifice	50	50
+Black33	8	Sacrifice	50	50
+Black34	8	Sacrifice	50	50
+Black35	8		50	50
+Black36	8		50	50
+Black37	8		50	50
+Black38	8	Raze	20	75
+Black39	8	Sacrifice	50	50
+Black40	8	Sacrifice	50	50
+Black41	8	Sacrifice	50	50
+Black42	8	Sacrifice	50	50
+Black43	8	Sacrifice	50	50
+Black44	8	Sacrifice	50	50
+Black45	8	Sacrifice	50	50
+Black46	8	Raze	50	50
+Black47	8	Raze	50	50
+Black48	8	Raze	50	50
+Black49	8	Raze	50	50
+Black50	8	Raze	50	50
+Black51	8	Raze	50	50
+Black52	8	Sacrifice	50	50
+Black53	8	Sacrifice	50	50
+Black54	8	Sacrifice	50	50
+Black55	8	Raze	50	50
+Black56	8	Raze	50	50
+Black57	8	Raze	50	50
+Black58	8		50	50
+Black59	8		50	50
+Black60	8		50	50
+Black04b		Sacrifice		
+Black52NoRespawn				
+Black53NoRespawn				
+Black54NoRespawn				
+Black05Servitor				
+Black06Servitor				
+Black07Servitor				
+Black23Effect				
+Black61	8		50	50
+Black62	8		50	50
+Black63	8		50	50
+Black64	8		50	50
+Black65	8		50	50
+Black66	8		50	50
+Black67	8		50	50
+Black68	8		50	50
+Black69	8		50	50
+Black70	8		50	50
+Black71	8		50	50
+Black72	8		50	50
+Black73	8		50	50
+Black74	8		50	50
+Black75	8		50	50
+Black76	8		50	50
+Black77	8		50	50
+Black78	8		50	50
+Black79	8		50	50
+Black80	8		50	50
+Black81	8		50	50
+Black82	8		50	50
+Black83	8		50	50
+Black84	8		50	50
+Black85	8		50	50
+Black86	8		50	50
+Black87	8		50	50
+Black88	8		50	50
+Black89	8		50	50
+Black90	8		50	50
+Black91	8		50	50
+Black92	8		50	50
+Black93	8		50	50
+Black94	8		50	50
+Black95	8		50	50
+Black96	8		50	50
+Black97	8		50	50
+Black98	8		50	50
+Black99	8		50	50
+Black100	8		50	50
+Black101	8		50	50
+Black102	8		50	50
+Black103	8		50	50
+Black104	8		50	50
+Black105	8		50	50
+Black106	8		50	50
+Black107	8		50	50
+Black108	8		50	50
+Black109	8		50	50
+Black110	8		50	50
+Black111	8		50	50
+Black112	8		50	50
+Black113	8		50	50
+Black114	8		50	50
+Black115	8		50	50
+Black116	8		50	50
+Black117	8		50	50
+Black118	8		50	50
+Black119	8		50	50
+Black120	8		50	50

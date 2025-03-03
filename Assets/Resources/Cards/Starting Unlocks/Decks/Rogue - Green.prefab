@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7489244845021367264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8137470385515490062}
+  - component: {fileID: 7696066506372661290}
+  - component: {fileID: 8123870961147672142}
+  - component: {fileID: 5227084256732751666}
+  - component: {fileID: 6375057788646590389}
+  m_Layer: 0
+  m_Name: Rogue - Green
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8137470385515490062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489244845021367264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7696066506372661290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489244845021367264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dae9a89411744901b5c24cb58fc4cd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heroClass: {fileID: 6031136141439010857, guid: 39dde400e256648c1a8e52c857dcf9b8,
+    type: 3}
+  heroPath: {fileID: 5301567130242176044, guid: d268ce7356d674373af24bb9e0a394ed,
+    type: 3}
+  startingDecks:
+  - {fileID: 8123870961147672142}
+  - {fileID: 5227084256732751666}
+  - {fileID: 6375057788646590389}
+--- !u!114 &8123870961147672142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489244845021367264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df890f60703546dd93a1f1fa8272750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Rogue Green Grow
+  sprite: {fileID: 0}
+  startingCards:
+  - {fileID: 114108048275088002, guid: 3d361f9093e4242038527cd06a639935, type: 3}
+  - {fileID: 621198866724557324, guid: e9cd6ac38b7d843c7bb8b3e32f6242d8, type: 3}
+  - {fileID: 621198866724557324, guid: db256913238ad4e7998e0ac3419b329f, type: 3}
+  - {fileID: 621198866724557324, guid: f5d099881775f45b885b67061e272808, type: 3}
+  - {fileID: 621198866724557324, guid: f99b495c95bfa4402b1a04ae9d4f81b1, type: 3}
+  - {fileID: 7762805283351796176, guid: 249df3b1e1cde4288bee69fd4932e093, type: 3}
+  - {fileID: 7762805283351796176, guid: 772b9d95d2237445a8429474974c2b7f, type: 3}
+  - {fileID: 7762805283351796176, guid: 82fe46ddd25e149baa10f8fd72be1198, type: 3}
+  - {fileID: 7762805283351796176, guid: cb3d6b5cc0708453d86edc2bad61f502, type: 3}
+  - {fileID: 7762805283351796176, guid: 9801c90fa26104944949b7d6ed88c810, type: 3}
+--- !u!114 &5227084256732751666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489244845021367264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df890f60703546dd93a1f1fa8272750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Rogue Green Evolve
+  sprite: {fileID: 0}
+  startingCards:
+  - {fileID: 621198866724557324, guid: 71c0b5e36d38b4d95b3b46725f6c44b9, type: 3}
+  - {fileID: 621198866724557324, guid: 71c0b5e36d38b4d95b3b46725f6c44b9, type: 3}
+  - {fileID: 621198866724557324, guid: 1c15f4389918c4fc387bd01be6b16c0c, type: 3}
+  - {fileID: 621198866724557324, guid: 9db96edf6e172473594dba48cb4c1f44, type: 3}
+  - {fileID: 114108048275088002, guid: 1d6685d337aac4bf194988871dc66021, type: 3}
+  - {fileID: 114108048275088002, guid: 1d6685d337aac4bf194988871dc66021, type: 3}
+  - {fileID: 7762805283351796176, guid: daad38e5c523d4f23bbd698558a19526, type: 3}
+  - {fileID: 7762805283351796176, guid: daad38e5c523d4f23bbd698558a19526, type: 3}
+  - {fileID: 7762805283351796176, guid: 72d755771e0a34a09aa1ee4a4a0fc1f9, type: 3}
+  - {fileID: 7762805283351796176, guid: 72d755771e0a34a09aa1ee4a4a0fc1f9, type: 3}
+--- !u!114 &6375057788646590389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489244845021367264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df890f60703546dd93a1f1fa8272750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Rogue Green Shapechange
+  sprite: {fileID: 0}
+  startingCards:
+  - {fileID: 621198866724557324, guid: 71c0b5e36d38b4d95b3b46725f6c44b9, type: 3}
+  - {fileID: 621198866724557324, guid: 71c0b5e36d38b4d95b3b46725f6c44b9, type: 3}
+  - {fileID: 114108048275088002, guid: 3d361f9093e4242038527cd06a639935, type: 3}
+  - {fileID: 114108048275088002, guid: 3d361f9093e4242038527cd06a639935, type: 3}
+  - {fileID: 7762805283351796176, guid: 9801c90fa26104944949b7d6ed88c810, type: 3}
+  - {fileID: 7762805283351796176, guid: 22a8e744c8f9142c8922a8c5db9e95ee, type: 3}
+  - {fileID: 7762805283351796176, guid: 22a8e744c8f9142c8922a8c5db9e95ee, type: 3}
+  - {fileID: 7762805283351796176, guid: 6a27f760c2d9748f5a9eb45c3f257b62, type: 3}
+  - {fileID: 7762805283351796176, guid: 6a27f760c2d9748f5a9eb45c3f257b62, type: 3}
+  - {fileID: 7762805283351796176, guid: 7e700e1d3db344e0090cef8d374d749e, type: 3}

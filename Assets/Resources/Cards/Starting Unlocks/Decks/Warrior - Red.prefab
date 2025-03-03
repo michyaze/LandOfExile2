@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7489244845021367264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8137470385515490062}
+  - component: {fileID: 7696066506372661290}
+  - component: {fileID: 8123870961147672142}
+  - component: {fileID: 5227084256732751666}
+  - component: {fileID: 6375057788646590389}
+  m_Layer: 0
+  m_Name: Warrior - Red
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8137470385515490062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489244845021367264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7696066506372661290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489244845021367264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dae9a89411744901b5c24cb58fc4cd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heroClass: {fileID: 6031136141439010857, guid: d910cf6b2898f4b9d9b0e7765ed13ac6,
+    type: 3}
+  heroPath: {fileID: 5301567130242176044, guid: fba4b667b5d304d48803d791774810b5,
+    type: 3}
+  startingDecks:
+  - {fileID: 6375057788646590389}
+  - {fileID: 8123870961147672142}
+  - {fileID: 5227084256732751666}
+--- !u!114 &8123870961147672142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489244845021367264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df890f60703546dd93a1f1fa8272750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Warrior Red Basic
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  startingCards:
+  - {fileID: 7762805283351796176, guid: bd74dbf445ddc44a7aefb496e19514a8, type: 3}
+  - {fileID: 7762805283351796176, guid: bd74dbf445ddc44a7aefb496e19514a8, type: 3}
+  - {fileID: 7762805283351796176, guid: bd74dbf445ddc44a7aefb496e19514a8, type: 3}
+  - {fileID: 7762805283351796176, guid: bd74dbf445ddc44a7aefb496e19514a8, type: 3}
+--- !u!114 &5227084256732751666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489244845021367264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df890f60703546dd93a1f1fa8272750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Warrior Red Spears
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  startingCards:
+  - {fileID: 7762805283351796176, guid: bd74dbf445ddc44a7aefb496e19514a8, type: 3}
+  - {fileID: 7762805283351796176, guid: bd74dbf445ddc44a7aefb496e19514a8, type: 3}
+  - {fileID: 7762805283351796176, guid: bd74dbf445ddc44a7aefb496e19514a8, type: 3}
+  - {fileID: 7762805283351796176, guid: bd74dbf445ddc44a7aefb496e19514a8, type: 3}
+--- !u!114 &6375057788646590389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489244845021367264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df890f60703546dd93a1f1fa8272750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Warrior Red Grow
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  startingCards:
+  - {fileID: 7762805283351796176, guid: bd74dbf445ddc44a7aefb496e19514a8, type: 3}
+  - {fileID: 7762805283351796176, guid: bd74dbf445ddc44a7aefb496e19514a8, type: 3}
+  - {fileID: 7762805283351796176, guid: bd74dbf445ddc44a7aefb496e19514a8, type: 3}
+  - {fileID: 7762805283351796176, guid: bd74dbf445ddc44a7aefb496e19514a8, type: 3}

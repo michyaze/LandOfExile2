@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1789843390072484534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3205747027490551724}
+  - component: {fileID: 7153543043080617955}
+  m_Layer: 0
+  m_Name: Encounter 7 - Chaos Elemental mage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3205747027490551724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789843390072484534}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7153543043080617955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789843390072484534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f86c8d82271c4225aca3803981803bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: ElementalEncounter4Mage
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  alwaysOpen: 0
+  boardColumns: 6
+  player1Starts: 1
+  randomStartingPositions: 1
+  player1StartingPos: 15
+  playerAIStartingPos: 0
+  eventInfo:
+    index: 166
+    level: 6
+    eventId: 13016
+    eventType: "\u602A\u7269"
+    enemyGroup: 1303
+    storyType: 
+    position: {x: -Infinity, y: -Infinity}
+    positionGroup: 1313
+    unlockConditionType: "\u5B8C\u6210\u5168\u90E8\u6307\u5B9Aid\u4E8B\u4EF6"
+    unlockConditionParam: d7320000
+    text: 
+  allOwnedCards:
+  - {fileID: 8057222552339870009, guid: cf4b20b2607124d43ba30a0563dccdc3, type: 3}
+  signPosts: []
+  shufflePlayerAIDeck: 1
+  initialMana: 2
+  drawsPerTurn: 5
+  level: 7
+  xp: 500
+  extraIntFlag: 0
+  isBoss: 0
+  cannotBeSkipped: 0
+  rewardCards: []
+  forceBattle: 0
+  cardsInPlay: []
+  positionsInPlay: 
+  overridePlayer: 0
+  playerCards: []
+  playerHero: {fileID: 0}
+  playerInitalMana: 0
+  playerDrawsPerTurn: 5
+  shufflePlayerDeck: 1
+  battleMapOverridePrefab: {fileID: 0}
+  randomBattleMap: 0
+  aiControl: {fileID: 0}
+  minObstacleCount: 1
+  maxObstacleCount: 3
+  specialChallengeSkills:
+  - skills:
+    - {fileID: 7756418509735178840, guid: 7fc1ccf16524540158e5135e16f485fd, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: fd1f86fe6d2354d5fa609fa0230db24e, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 65cb26a9910824adba4dfd571da0dccd, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 8a8e486ccaa3b439ab8240a6a3c69f12, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 7df1d35b68cef46bb9d5c83e883ce38e, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 59755c14d3d4d46479c8d7828975afe5, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 8ed26eaa4148256488e86385f1956d58, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 20d1aefe8b2881b40aa6ab35f4fce7df, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 9583d7a3bebff4efb9f5c1be8e96a338, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 87a425caf5a18482f92ea43d5a4eabb0, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 724ccb5c665c66f4295da4074b7bbadb, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: ed54882147315ed4e86a219a8f72ce86, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: d2d6c1db216b3224380a32e451117d83, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: f6dc47cec81575d42876a327396f2bf1, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: dccdc046d270d4e3d9cb353d46dee5db, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: b6a4c84f0ace41341be9a9d9f86daa64, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: e67060e340c0f4548b86ff0bac09f65b, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 026ec515f248e7e4081772656a45e85b, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 7fc1ccf16524540158e5135e16f485fd, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 4d7b14a40780ba44b946c562b10c6738, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 5b05b741c99094c00a088e299cddf045, type: 3}
+  - skills:
+    - {fileID: 7756418509735178840, guid: 4d7b14a40780ba44b946c562b10c6738, type: 3}
+  specialChallengeSkillApplyOnCardsInPlay: 0
+  extraMapSettings: []

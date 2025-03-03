@@ -1,0 +1,9 @@
+spine_event_3004.png
+size:256,256
+filter:Linear,Linear
+pma:true
+icon_treasure_00097
+bounds:2,78,170,170
+shadow
+bounds:2,2,168,74
+offsets:15,6,198,86

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &667485897519640161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5716493865408337644}
+  - component: {fileID: 3646574837182153450}
+  - component: {fileID: 921159773605492921}
+  m_Layer: 0
+  m_Name: Area 5 Green - The Caverns for rogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5716493865408337644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667485897519640161}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3646574837182153450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667485897519640161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec7e7868eb57f49ce97ea1532e0bd8ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Area04
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  enemies:
+  - {fileID: 7153543043080617955, guid: 2e999715452a74eadacd1d2d2ca3b979, type: 3}
+  - {fileID: 7153543043080617955, guid: 07c715d10c12f440eb144da7a5006053, type: 3}
+  - {fileID: 7153543043080617955, guid: a2666a813d81341fc83fb156dcda470c, type: 3}
+  - {fileID: 7153543043080617955, guid: c8641a2a181f544e69d39f5b108816e7, type: 3}
+  - {fileID: 7153543043080617955, guid: 05727abb6360044fa870f4014e20a31b, type: 3}
+  bosses:
+  - {fileID: 7153543043080617955, guid: 176bcc8e008944b098b4a79dbc7f6cff, type: 3}
+  battleMapBGPrefabs:
+  - {fileID: 7618853770591451236, guid: 4c8e322339536493cbfde0cef66b6e69, type: 3}
+  - {fileID: 7618853770591451236, guid: be86e09f663598948877cc672404b707, type: 3}
+  - {fileID: 7618853770591451236, guid: 47f5b992e3330a94eadf297be8c48121, type: 3}
+  - {fileID: 7618853770591451236, guid: d4246541b26cd9b49b4241e1dd36b05c, type: 3}
+  alternateBattleMapBGPrefabs: []
+  choiceButtonSprite: {fileID: 21300000, guid: 9f1ea4651688a463fbfdee7755adaa39, type: 3}
+  mapRoomSprites:
+  - {fileID: 21300000, guid: bffd048b0a8414c8295abcd62e18ee26, type: 3}
+  - {fileID: 21300000, guid: 07e4373fc931648928286e33b9c64c0b, type: 3}
+  - {fileID: 21300000, guid: 16191ba42e3d648418389b37df6d1b98, type: 3}
+  alternateMapRoomSprites: []
+  cardFrontSprites:
+  - {fileID: 21300000, guid: 0cf88fe857e564230807ed4cb1fbb9bc, type: 3}
+  - {fileID: 21300000, guid: e5e6743ef1a044990b01d0e7424ec6d8, type: 3}
+  - {fileID: 21300000, guid: c57d0606c533646839e20fae20481ace, type: 3}
+  boardCardHeroSprite: {fileID: 21300000, guid: 556c80822593b42818555f37a1d59242,
+    type: 3}
+  boardCardMinionSprite: {fileID: 21300000, guid: 0183b69b963624ba982296e9ea257ee4,
+    type: 3}
+  cardHistoryBorderColor: {r: 0, g: 0.6851115, b: 1, a: 1}
+  bigMapSprite: {fileID: 21300000, guid: b3a252f73f2cabb4cae754cf91dd806c, type: 3}
+  levelId: 4
+  xScale: 0.7
+  yScale: 0.71
+  obstacle: {fileID: 9023387019244983980, guid: 2ec2c6a50a593fb4b89afca414a91ff6,
+    type: 3}
+--- !u!114 &921159773605492921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667485897519640161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ece2343d75b8488fb1a163dd2b7e2fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yOffset: -120

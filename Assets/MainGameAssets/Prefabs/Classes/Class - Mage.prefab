@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5128106560541967807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 712304397098877067}
+  - component: {fileID: 6031136141439010857}
+  - component: {fileID: 1425626737965310406}
+  m_Layer: 0
+  m_Name: Class - Mage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &712304397098877067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5128106560541967807}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6031136141439010857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5128106560541967807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1206fe8782f4c49cfa66f487ba062214, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Mage01
+  sprite: {fileID: 21300000, guid: 24c93bdc334b38a45b3c133eddd4fd68, type: 3}
+  alternateSprite: {fileID: 0}
+  iconSprite: {fileID: 21300000, guid: c86725ff06ce77a438aab8521bfadc4b, type: 3}
+  largeHeroSelectSprite: {fileID: 21300000, guid: bfcc83df0b3c0c14292322a2ceee53e6,
+    type: 3}
+  heroPrefab: {fileID: 8057222552339870009, guid: 05d8dcc917fb04327bb96c1cec615f79,
+    type: 3}
+  initialActions: 1
+  initialHP: 12
+  initialMana: 3
+  initialCardsDrawnPerTurn: 4
+  hpGainPerLevel: 2
+  spineAsset: {fileID: 11400000, guid: 57de8eeaa79ef50489b58a258c088987, type: 2}
+  startCards:
+  - {fileID: 7762805283351796176, guid: 4af1b9bad34298c4e9af0003a1e3beb0, type: 3}
+  - {fileID: 7762805283351796176, guid: 4af1b9bad34298c4e9af0003a1e3beb0, type: 3}
+  - {fileID: -6317306252093636915, guid: 9f069b989c081eb40ad39b41a5c739ca, type: 3}
+  - {fileID: -6317306252093636915, guid: 9f069b989c081eb40ad39b41a5c739ca, type: 3}
+  - {fileID: -6317306252093636915, guid: 3e486a60d63239f4090146bcec3876ce, type: 3}
+  - {fileID: -6317306252093636915, guid: 3e486a60d63239f4090146bcec3876ce, type: 3}
+  - {fileID: -6317306252093636915, guid: 39ff2e13c1f50f44ba52157698be506b, type: 3}
+  - {fileID: -6317306252093636915, guid: 39ff2e13c1f50f44ba52157698be506b, type: 3}
+  - {fileID: 621198866724557324, guid: 8e00bec8413e9484d8c3345e37cef6b1, type: 3}
+  basicTalents:
+  - {fileID: 7756418509735178840, guid: 019037dede751d847a7690547cfe43aa, type: 3}
+  - {fileID: 7756418509735178840, guid: 9ff7e9f721c0d4e49bcdbbbf1e9519c1, type: 3}
+  - {fileID: 7756418509735178840, guid: 41505eca1d568764fa905a04253ef2db, type: 3}
+  - {fileID: 7756418509735178840, guid: f8211f725c68d354c9961c8e75dd5b87, type: 3}
+  - {fileID: 7756418509735178840, guid: 01603a014aa362c4597d26461ffa2e81, type: 3}
+  - {fileID: 7756418509735178840, guid: 2f6377cd27b191344b1e60f36684bfc4, type: 3}
+  - {fileID: 7756418509735178840, guid: d6ce43ada690fc742842ba22a1ec096c, type: 3}
+  - {fileID: 7756418509735178840, guid: 1b182754e4854a541abc77a4ae84d5e5, type: 3}
+  - {fileID: 7756418509735178840, guid: 7fa8968ef72512b419f52504d12dc9a7, type: 3}
+  - {fileID: 7756418509735178840, guid: b2282cc69cabd4c86941a28d8716c9c9, type: 3}
+  - {fileID: 7756418509735178840, guid: 471a0602876184e2caac9649197993c5, type: 3}
+  - {fileID: 7756418509735178840, guid: 265b3fbf28cd447c1b56ec89debb46ff, type: 3}
+  - {fileID: 7756418509735178840, guid: 3c26393b365cd4d739f7af7ae6ba2b25, type: 3}
+  - {fileID: 7756418509735178840, guid: fa5cc5044e62e43bea76664aad11c394, type: 3}
+  - {fileID: 7756418509735178840, guid: dcf7dba065945b9419a43a13dca6675e, type: 3}
+  - {fileID: 7756418509735178840, guid: 08b7503cd8d338846874764f85a25847, type: 3}
+  - {fileID: 7756418509735178840, guid: b6467a288b328f247b4eeabc7fc28b05, type: 3}
+  advancedTalents:
+  - {fileID: 7756418509735178840, guid: 772e72d4acdcd42efa41518acd4b4c9f, type: 3}
+  - {fileID: 7756418509735178840, guid: dd4fd53216ad448d69c7033fb16036e6, type: 3}
+  - {fileID: 7756418509735178840, guid: 1bc5e9afdd1260f42830865ca0367ec4, type: 3}
+  - {fileID: 7756418509735178840, guid: 135e2ceb2da148d47abf85aafc8f0f79, type: 3}
+  - {fileID: 7756418509735178840, guid: 93b7b8fcf52e5224780eb59761973fbb, type: 3}
+  - {fileID: 7756418509735178840, guid: 223cc35bfd1ee704896405d94aa83972, type: 3}
+  - {fileID: 7756418509735178840, guid: c5888817e87b7f34099b205b63da278d, type: 3}
+  - {fileID: 7756418509735178840, guid: aa3b343fac3d8438dbd4efd791840783, type: 3}
+  midpointTalents:
+  - {fileID: 7756418509735178840, guid: 3b62e0574a3884cb3b2a5b62e4c46028, type: 3}
+  - {fileID: 7756418509735178840, guid: bb3919d8d3ccd4867b9fee4a85780bb7, type: 3}
+  - {fileID: 7756418509735178840, guid: 74a60f43163ad7c4cb4775bc5bff702d, type: 3}
+  - {fileID: 7756418509735178840, guid: 1550d01c4b9865e4b9b3442df7e859eb, type: 3}
+  - {fileID: 7756418509735178840, guid: 42e8848b273cb8a4d98506aaee727dab, type: 3}
+  - {fileID: 7756418509735178840, guid: 2df1d6b26a55d4e46900186c5a23aec0, type: 3}
+  - {fileID: 7756418509735178840, guid: 78557cbcde76f8f4e8a34346e0e17743, type: 3}
+  - {fileID: 7756418509735178840, guid: e26ffa28cc9b8414d9a9517f81a8b288, type: 3}
+  - {fileID: 7756418509735178840, guid: 630b497101e354b85a2986c7319dc806, type: 3}
+  - {fileID: 7756418509735178840, guid: bb127bfe88924ff47997754aaed25ad6, type: 3}
+  defaultNamesForPaths:
+  - Taelin the Firewalker
+  - Morn the Necromancer
+  - Lorin the Icemaiden
+  - Sharma the Lightbringer
+  - Pael the Leafcaller
+  cutscenes:
+  - {fileID: 7757890371900061504, guid: 782e9b80a184041e894c166283defcca, type: 3}
+  - {fileID: 7757890371900061504, guid: 24afbd98062c848808f04fd4c55a3fb7, type: 3}
+  - {fileID: 7757890371900061504, guid: c7ca563e7a1c447c7843d1653f7feaae, type: 3}
+  - {fileID: 7757890371900061504, guid: 626e130735a1a4231a6a918a6d9ea59e, type: 3}
+  - {fileID: 7757890371900061504, guid: 5be597bd9e69a432ab4b20e739a3ca55, type: 3}
+  - {fileID: 7757890371900061504, guid: 3d91bfeb717414e74859a86bfc8708dd, type: 3}
+  cutsceneAreas: 010000000100000002000000020000000300000003000000
+  startTalents:
+  - {fileID: 7756418509735178840, guid: 7fa8968ef72512b419f52504d12dc9a7, type: 3}
+  - {fileID: 7756418509735178840, guid: 8fdfab675d38e594593ff07ca7ff1dc7, type: 3}
+  index: 1
+  classFolderName: 
+--- !u!114 &1425626737965310406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5128106560541967807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b98501f1e360f41a8a2d4ca93add0b0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7489244845021367264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8137470385515490062}
+  - component: {fileID: 7696066506372661290}
+  - component: {fileID: 4338203066504248120}
+  - component: {fileID: 4800309079873683224}
+  - component: {fileID: 3865418683070844182}
+  m_Layer: 0
+  m_Name: Warrior - Black
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8137470385515490062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489244845021367264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7696066506372661290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489244845021367264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dae9a89411744901b5c24cb58fc4cd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heroClass: {fileID: 6031136141439010857, guid: d910cf6b2898f4b9d9b0e7765ed13ac6,
+    type: 3}
+  heroPath: {fileID: 5301567130242176044, guid: d2ab9e45110d84b4b8ef8446f03524b0,
+    type: 3}
+  startingDecks:
+  - {fileID: 4338203066504248120}
+  - {fileID: 4800309079873683224}
+  - {fileID: 3865418683070844182}
+--- !u!114 &4338203066504248120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489244845021367264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df890f60703546dd93a1f1fa8272750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Warrior Black Basic
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  startingCards:
+  - {fileID: 7762805283351796176, guid: 2aba1fc37a2884f85a81a7fd2d85cd69, type: 3}
+  - {fileID: 7762805283351796176, guid: f28b3940b13cb4e1cb3a9f5dac3ff66b, type: 3}
+  - {fileID: 7762805283351796176, guid: 3c950a5a4ad304a24be86bcfcfa5de7d, type: 3}
+  - {fileID: 7762805283351796176, guid: 3c950a5a4ad304a24be86bcfcfa5de7d, type: 3}
+  - {fileID: 7762805283351796176, guid: c6f617446d6b9413e8077bb6a455a324, type: 3}
+  - {fileID: 7762805283351796176, guid: 12d04c4b69662424887a67502c9f6919, type: 3}
+  - {fileID: 7762805283351796176, guid: 8ed457ba8c83c43f5b83237f9886dcf5, type: 3}
+  - {fileID: 7762805283351796176, guid: 8ed457ba8c83c43f5b83237f9886dcf5, type: 3}
+  - {fileID: 621198866724557324, guid: 3236bd102604a4b38a2f1e17fee56344, type: 3}
+  - {fileID: 621198866724557324, guid: d3df0a4eb376546aab8de62575d11c9d, type: 3}
+--- !u!114 &4800309079873683224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489244845021367264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df890f60703546dd93a1f1fa8272750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Warrior Black Predators
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  startingCards:
+  - {fileID: 7762805283351796176, guid: 2aba1fc37a2884f85a81a7fd2d85cd69, type: 3}
+  - {fileID: 621198866724557324, guid: 3722d2c3bf31d4801bf83383ab101e2e, type: 3}
+  - {fileID: 7762805283351796176, guid: 2045564c45ef645fa8f9c66b81bc81e6, type: 3}
+  - {fileID: 7762805283351796176, guid: 2045564c45ef645fa8f9c66b81bc81e6, type: 3}
+  - {fileID: 7762805283351796176, guid: f896a975365db4b3a8a4a8054cc2fa7a, type: 3}
+  - {fileID: 7762805283351796176, guid: f896a975365db4b3a8a4a8054cc2fa7a, type: 3}
+  - {fileID: 7762805283351796176, guid: 735688af5a54d4c569229f0800b6dc33, type: 3}
+  - {fileID: 7762805283351796176, guid: 735688af5a54d4c569229f0800b6dc33, type: 3}
+  - {fileID: 621198866724557324, guid: 3236bd102604a4b38a2f1e17fee56344, type: 3}
+  - {fileID: 621198866724557324, guid: d3df0a4eb376546aab8de62575d11c9d, type: 3}
+--- !u!114 &3865418683070844182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489244845021367264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df890f60703546dd93a1f1fa8272750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Warrior Black Raze
+  sprite: {fileID: 0}
+  alternateSprite: {fileID: 0}
+  startingCards:
+  - {fileID: 7762805283351796176, guid: a2800b5ab90bb49999decf62ed7fdf89, type: 3}
+  - {fileID: 7762805283351796176, guid: a2800b5ab90bb49999decf62ed7fdf89, type: 3}
+  - {fileID: 7762805283351796176, guid: de61d9433745d40a2b66a8213df81df2, type: 3}
+  - {fileID: 7762805283351796176, guid: de61d9433745d40a2b66a8213df81df2, type: 3}
+  - {fileID: 7762805283351796176, guid: bef3fe07ab8214bb299cc30828402c5d, type: 3}
+  - {fileID: 7762805283351796176, guid: bef3fe07ab8214bb299cc30828402c5d, type: 3}
+  - {fileID: 7762805283351796176, guid: 735688af5a54d4c569229f0800b6dc33, type: 3}
+  - {fileID: 621198866724557324, guid: c6d145c3951ce4b0f930bc2b818c3913, type: 3}
+  - {fileID: 621198866724557324, guid: 3236bd102604a4b38a2f1e17fee56344, type: 3}
+  - {fileID: 621198866724557324, guid: d3df0a4eb376546aab8de62575d11c9d, type: 3}

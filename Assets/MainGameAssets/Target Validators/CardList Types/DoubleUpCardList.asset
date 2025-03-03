@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2da88a6475be46d983b032755cdd436, type: 3}
+  m_Name: DoubleUpCardList
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 6807118950767606451, guid: 6181b236c2d6e4691835f72b9b089e8c, type: 3}
+  - {fileID: 6807118950767606451, guid: 8ff27b20356074613b94f859c9c08fd3, type: 3}
+  - {fileID: 6807118950767606451, guid: 7d03c7a66b14c4fa09a807d721b1d301, type: 3}

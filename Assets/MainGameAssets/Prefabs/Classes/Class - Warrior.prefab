@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5128106560541967807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 712304397098877067}
+  - component: {fileID: 6031136141439010857}
+  - component: {fileID: 6375112398069318305}
+  m_Layer: 0
+  m_Name: Class - Warrior
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &712304397098877067
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5128106560541967807}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6031136141439010857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5128106560541967807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1206fe8782f4c49cfa66f487ba062214, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UniqueID: Warrior01
+  sprite: {fileID: 21300000, guid: 6f020e28d2f653745be89860c67fed28, type: 3}
+  alternateSprite: {fileID: 0}
+  iconSprite: {fileID: 21300000, guid: e8fc99af1beb8084d98a139d484a8fd3, type: 3}
+  largeHeroSelectSprite: {fileID: 21300000, guid: 4b28e6cda6836584eb1304617de2f619,
+    type: 3}
+  heroPrefab: {fileID: 8057222552339870009, guid: edb204a1e37514531b67c847f9fbe0ff,
+    type: 3}
+  initialActions: 1
+  initialHP: 16
+  initialMana: 3
+  initialCardsDrawnPerTurn: 4
+  hpGainPerLevel: 2
+  spineAsset: {fileID: 11400000, guid: 40f018ea57ddf024a82f45885caf1ebf, type: 2}
+  startCards:
+  - {fileID: 4719581384068351849, guid: 5f28d41da67b4422e99f17a7d74b6861, type: 3}
+  - {fileID: 621198866724557324, guid: d3df0a4eb376546aab8de62575d11c9d, type: 3}
+  - {fileID: 621198866724557324, guid: d3df0a4eb376546aab8de62575d11c9d, type: 3}
+  - {fileID: 621198866724557324, guid: 3236bd102604a4b38a2f1e17fee56344, type: 3}
+  - {fileID: 621198866724557324, guid: 3236bd102604a4b38a2f1e17fee56344, type: 3}
+  - {fileID: 7762805283351796176, guid: bd74dbf445ddc44a7aefb496e19514a8, type: 3}
+  - {fileID: 7762805283351796176, guid: bd74dbf445ddc44a7aefb496e19514a8, type: 3}
+  - {fileID: 7762805283351796176, guid: bd74dbf445ddc44a7aefb496e19514a8, type: 3}
+  - {fileID: 621198866724557324, guid: 8e00bec8413e9484d8c3345e37cef6b1, type: 3}
+  basicTalents:
+  - {fileID: 7756418509735178840, guid: 265b3fbf28cd447c1b56ec89debb46ff, type: 3}
+  - {fileID: 7756418509735178840, guid: 3c26393b365cd4d739f7af7ae6ba2b25, type: 3}
+  - {fileID: 7756418509735178840, guid: 7fc1ccf16524540158e5135e16f485fd, type: 3}
+  - {fileID: 7756418509735178840, guid: fa5cc5044e62e43bea76664aad11c394, type: 3}
+  - {fileID: 7756418509735178840, guid: b2282cc69cabd4c86941a28d8716c9c9, type: 3}
+  - {fileID: 7756418509735178840, guid: 504cbd135ec4046e0ae12e4551ed820b, type: 3}
+  - {fileID: 7756418509735178840, guid: 7fcc4ed0dacc7483eb947d5f27ea14d2, type: 3}
+  - {fileID: 7756418509735178840, guid: a026595e299d3493c9d96f55f7b46741, type: 3}
+  - {fileID: 7756418509735178840, guid: e3a01b41be4b94beb96eebc985ba3bd8, type: 3}
+  - {fileID: 7756418509735178840, guid: cf2cdac0d869fd346a037431bb5fbc31, type: 3}
+  - {fileID: 7756418509735178840, guid: 471a0602876184e2caac9649197993c5, type: 3}
+  - {fileID: 7756418509735178840, guid: f83c9ddac9af37d47b5e8caa68c35fb3, type: 3}
+  - {fileID: 7756418509735178840, guid: 5ca78ba383eaadc4082c32ba6825e263, type: 3}
+  - {fileID: 7756418509735178840, guid: d262843c9cd050f47a399be773478693, type: 3}
+  - {fileID: 7756418509735178840, guid: 21bad61f608104cf3ad15312ef3bfa74, type: 3}
+  advancedTalents:
+  - {fileID: 7756418509735178840, guid: 772e72d4acdcd42efa41518acd4b4c9f, type: 3}
+  - {fileID: 7756418509735178840, guid: fceb4a87d905d604192ef1bb24fb4898, type: 3}
+  - {fileID: 7756418509735178840, guid: dd4fd53216ad448d69c7033fb16036e6, type: 3}
+  - {fileID: 7756418509735178840, guid: 8ef906dcadf7b49449915c68fd1f839b, type: 3}
+  - {fileID: 7756418509735178840, guid: c29899d3ecde6460c9c854de303a5055, type: 3}
+  - {fileID: 7756418509735178840, guid: 0b7a635fca0238e4da1297850b6dff69, type: 3}
+  - {fileID: 7756418509735178840, guid: bc2c1c61f69002e42b7ad1400de9e9e7, type: 3}
+  - {fileID: 7756418509735178840, guid: 48be8b8af537b4c06bb11e64a99e61e1, type: 3}
+  midpointTalents:
+  - {fileID: 7756418509735178840, guid: 7605ad68bcb174a73b55f3d08a6d7bec, type: 3}
+  - {fileID: 7756418509735178840, guid: fb101a5ac359fd24398cfc660940c058, type: 3}
+  - {fileID: 7756418509735178840, guid: 3b62e0574a3884cb3b2a5b62e4c46028, type: 3}
+  - {fileID: 7756418509735178840, guid: f071538fd3973b54aa4f046758ca91bf, type: 3}
+  - {fileID: 7756418509735178840, guid: f6dc47cec81575d42876a327396f2bf1, type: 3}
+  - {fileID: 7756418509735178840, guid: dccdc046d270d4e3d9cb353d46dee5db, type: 3}
+  - {fileID: 7756418509735178840, guid: 37c2ae3e7fc4efc4999ab5a580f3b55d, type: 3}
+  - {fileID: 7756418509735178840, guid: b6a4c84f0ace41341be9a9d9f86daa64, type: 3}
+  - {fileID: 7756418509735178840, guid: e67060e340c0f4548b86ff0bac09f65b, type: 3}
+  - {fileID: 7756418509735178840, guid: 3f33a944f0e79450195e68a1711c4801, type: 3}
+  - {fileID: 7756418509735178840, guid: bb3919d8d3ccd4867b9fee4a85780bb7, type: 3}
+  - {fileID: 7756418509735178840, guid: 2a4b71e2a514043089dbe1d113b9b010, type: 3}
+  defaultNamesForPaths:
+  - Brognir the Berserker
+  - Halfdan the Deathwalker
+  - Talnir the Spellsword
+  - Borin the Lightbringer
+  - Haskar the Barbarian
+  cutscenes:
+  - {fileID: 7757890371900061504, guid: e1349ec034c6344f09c382100c24c7eb, type: 3}
+  - {fileID: 7757890371900061504, guid: 587ecbd5a0ce3454a9fe1e72381b39bf, type: 3}
+  - {fileID: 7757890371900061504, guid: 33b19ec9dcb734a83a510e1eeced8b4f, type: 3}
+  - {fileID: 7757890371900061504, guid: 24bee81d7ba224518a2ddae2a59af17b, type: 3}
+  - {fileID: 7757890371900061504, guid: 03e24bfbffad84cd7bf42b44ec135a13, type: 3}
+  - {fileID: 7757890371900061504, guid: c5b85ba3d099f426eb885b55674ead34, type: 3}
+  cutsceneAreas: 010000000100000002000000020000000300000003000000
+  startTalents:
+  - {fileID: 7756418509735178840, guid: 3cad158ad977f8d42aa2e078549bfc1a, type: 3}
+  - {fileID: 7756418509735178840, guid: 772e72d4acdcd42efa41518acd4b4c9f, type: 3}
+  index: 0
+  classFolderName: Warrior
+--- !u!114 &6375112398069318305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5128106560541967807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b98501f1e360f41a8a2d4ca93add0b0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

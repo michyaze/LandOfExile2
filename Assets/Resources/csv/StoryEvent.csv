@@ -1,0 +1,13 @@
+﻿questName,questEventId,spriteName,options,optionsShowLogic
+quest_1,1,img_eventbg_3001,option_1|option_2,order
+quest_2,2,img_eventbg_3002,option_1,all
+quest_3,3,img_eventbg_3003,option_1,all
+quest_4,4,img_eventbg_3004,goback|option_2,all
+quest_5,5,img_eventbg_3005,option_1|option_2,order
+quest_6,6,img_eventbg_3006,option_1|option_2,order
+quest_7,7,img_eventbg_3007,option_1,all
+quest_11,11,monster_normal_2005,option_1,all
+quest_12,12,monster_normal_2009,option_1,all
+quest_13,13,monster_boss_2001,option_1,all
+quest_14,14,monster_boss_1002,option_1,all
+quest_15,15,monster_boss_1002,option_1,all

@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7885702725132883606
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -4217666021580407575, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: times
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1896912747741420347, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: amountToHeal
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949570924796162229, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3667629559149321756, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: m_Name
+      value: 101b Wizard Chimo
+      objectReference: {fileID: 0}
+    - target: {fileID: 7762805283351796176, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: level
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7762805283351796176, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: UniqueID
+      value: Redn101b
+      objectReference: {fileID: 0}
+    - target: {fileID: 7762805283351796176, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: initialHP
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7762805283351796176, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: initialCost
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7762805283351796176, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: upgradeCard
+      value: 
+      objectReference: {fileID: 492197065377812294, guid: 2cc2799206bdcb84bb3ea10bbf98e821,
+        type: 3}
+    - target: {fileID: 7762805283351796176, guid: aec61eebf07045e4bb037b35e85d6d54,
+        type: 3}
+      propertyPath: initialPower
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aec61eebf07045e4bb037b35e85d6d54, type: 3}
