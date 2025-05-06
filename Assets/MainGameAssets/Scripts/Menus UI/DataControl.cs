@@ -345,7 +345,7 @@ public class DataControl : MonoBehaviour
             MenuControl.Instance.heroMenu.unlockedClasses.Add(ii == 0);
             MenuControl.Instance.heroMenu.ascensionUnlocks.Add(0);
             
-            MenuControl.Instance.heroMenu.finishedClasses.Add(false);
+            MenuControl.Instance.heroMenu.finishedClasses.Add(true);
             MenuControl.Instance.heroMenu.finishedUnlockVisualizationClasses.Add(ii == 0);
         }
         if (File.Exists(Application.persistentDataPath + $"/SaveGlobal{surfix}.txt"))

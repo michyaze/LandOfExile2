@@ -248,6 +248,8 @@ public class HeroMenu : BasicMenu
     private void Start()
     {
         classSelectionIndicators = classSelectionIndicatorParent.GetComponentsInChildren<SelectIndicator>();
+        SelectPath(heroPath);
+        SelectClass(heroClass);
         //set unlockable cards
         unlockableCards.Clear();
         foreach (var card in allCards)
@@ -452,8 +454,8 @@ public class HeroMenu : BasicMenu
         //gameModePanelView.Hide(true);
         //heroNamePanelView.Hide(true);
         
-        if (heroClass == null)
-            heroClass = heroClasses[0];
+        // if (heroClass == null)
+        heroClass = heroClasses[0];
 
         if (MenuControl.Instance.DemoMode)
         {
@@ -480,8 +482,8 @@ public class HeroMenu : BasicMenu
 
         //accumulatedGoldText.text = accumulatedGold.ToString();
 
-        SelectPath(heroPath);
-        SelectClass(heroClass);
+        // SelectPath(heroPath);
+        // SelectClass(heroClass);
 
         //SetGameMode((int)gameMode);
 //        editPanel.Hide(true);

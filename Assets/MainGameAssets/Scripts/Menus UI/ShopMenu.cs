@@ -113,9 +113,14 @@ public class ShopMenu : BasicMenu
 
     public GameObject arrows;
 
-    private void Start()
+    private void Awake()
     {
         mLoopListView.InitListView(6, OnGetItemByIndex);
+    }
+
+    private void Start()
+    {
+        
         rightArrow.onClick.AddListener(() => PressArrow(true));
         leftArrow.onClick.AddListener(() => PressArrow(false));
     }
@@ -695,6 +700,7 @@ public class ShopMenu : BasicMenu
         }
 
         mLoopListView.SetListItemCount(cards.Count, false);
+        mLoopListView.RefreshAllShownItem();
         
         //arrows.SetActive(cards.Count>6);
 

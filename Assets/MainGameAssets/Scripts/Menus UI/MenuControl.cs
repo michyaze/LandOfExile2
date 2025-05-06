@@ -43,6 +43,8 @@ public class MenuControl : MonoBehaviour
     public VisibleCard visibleCardPrefab;
     public ChoicePanel choicePanelPrefab;
     public CSVLoader csvLoader;
+    
+    public LoginMenu loginMenu;
     public MainMenu mainMenu;
     public AdventureMenu adventureMenu;
     public HeroMenu heroMenu;
@@ -262,8 +264,9 @@ public class MenuControl : MonoBehaviour
 
         initialBlockerPanel.SetActive(true);
         StopInput();
-        LeanTween.delayedCall(0.01f, () =>
-        {
+        // LeanTween.delayedCall(0.01f, () =>
+        // {
+            // ShowLoginMenu();
             ShowMainMenu();
             initialBlockerPanel.SetActive(false);
 
@@ -271,7 +274,7 @@ public class MenuControl : MonoBehaviour
             // {
             //     cutsceneMenu.ShowIntroCutscenes();
             // }
-        });
+        // });
 
 #if UNITY_STANDALONE
         foreach (ScrollRect scrollRect in GetComponentsInChildren<ScrollRect>(true))
@@ -514,6 +517,7 @@ public class MenuControl : MonoBehaviour
 
     public void HideSubMenus()
     {
+        loginMenu.HideMenu();
         mainMenu.HideMenu();
         adventureMenu.HideMenu(true);
         bigAdventureMenu.HideMenu(true);
@@ -685,19 +689,30 @@ public class MenuControl : MonoBehaviour
             }
             else
             {
-                MenuControl.Instance.ShowMainMenu();
-                //Start();
+                // MenuControl.Instance.ShowLoginMenu();
+                Start();
             }
 
         }
         else
         {
+            // MenuControl.Instance.ShowLoginMenu();
             MenuControl.Instance.ShowMainMenu();
         }
         //add loading page here?
         //MenuControl.Instance.loadingMenu.ShowLoading();
         //SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
         // Application.LoadLevel(Application.loadedLevel);
+    }
+
+    public void ShowLoginMenu()
+    {
+        
+        battleMenu.inBattle = false;
+
+        HideSubMenus();
+        
+        loginMenu.ShowMenu();
     }
 
     public void ShowMainMenu()

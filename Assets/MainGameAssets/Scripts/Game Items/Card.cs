@@ -627,8 +627,9 @@ public CardTargetType cardTargetType;
                 // }
             }
         }
-        
-        return MenuControl.Instance.progressMenu.cardsDiscovered.Contains(this.UniqueID);
+
+        return true;
+        // return MenuControl.Instance.progressMenu.cardsDiscovered.Contains(this.UniqueID);
     }
 
     public int GetPointScore()
