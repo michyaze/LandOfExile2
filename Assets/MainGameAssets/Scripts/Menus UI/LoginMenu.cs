@@ -50,6 +50,12 @@ public class LoginMenu : BasicMenu
         public string tmp_token;
     }
 
+    public class ResponseData
+    {
+        public string access_token;
+        public string token_type;
+    }
+
     public override void ShowMenu()
     {
         base.ShowMenu();
@@ -180,10 +186,11 @@ public class LoginMenu : BasicMenu
     }
     
     
-    private void OnRegisterSuccess(string token)
+    private void OnRegisterSuccess(string jsonData)
     {
+        var data = JsonUtility.FromJson<ResponseData>(jsonData);
         var request = "login_with_token";
-        LoginWithToken(webUrl + request, account.text, token);
+        LoginWithToken(webUrl + request, account.text, data.access_token);
     }
 
     /// <summary>登录</summary>
@@ -195,9 +202,9 @@ public class LoginMenu : BasicMenu
     }
 
 
-    private void OnLoginSuccess(string result)
+    private void OnLoginSuccess(string jsonData)
     {
-        mainMenu.ShowMenu();
+        ShowMainMenu();
     }
 
 
@@ -228,7 +235,6 @@ public class LoginMenu : BasicMenu
         popupTips.transform.localPosition = new Vector3(0, 100, 0);
         var tween = LeanTween.moveLocalY(popupTips, 300, 1f);
         LeanTween.alpha(popupTips, 0.5f, 0.5f);
-
         tween.setOnComplete(() =>
         {
             popupTips.SetActive(false);

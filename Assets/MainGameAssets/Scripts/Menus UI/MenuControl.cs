@@ -145,6 +145,9 @@ public class MenuControl : MonoBehaviour
     public bool checkSpriteExist;
     public bool exhustAllMinionAfterUsage = true;
 
+    /// <summary>跳过登录</summary>
+    private bool skipLogin = true;
+
     public enum Languages
     {
         English,
@@ -245,7 +248,7 @@ public class MenuControl : MonoBehaviour
 
         foreach (Text text in buildLabelTexts)
         {
-            text.text = GetBuildLabelText() + (betaMode ? " BETA" : "");
+            text.text = "游戏版本: " + GetBuildLabelText() + (betaMode ? " BETA" : "");
 
             if (demoMode)
             {
@@ -266,8 +269,14 @@ public class MenuControl : MonoBehaviour
         StopInput();
         // LeanTween.delayedCall(0.01f, () =>
         // {
-            // ShowLoginMenu();
-            ShowMainMenu();
+            if (!skipLogin)
+            {
+                ShowLoginMenu();
+            }
+            else
+            {
+                ShowMainMenu();
+            }
             initialBlockerPanel.SetActive(false);
 
             // if (!cutSceneFinished)
@@ -689,15 +698,28 @@ public class MenuControl : MonoBehaviour
             }
             else
             {
-                // MenuControl.Instance.ShowLoginMenu();
-                Start();
+                if (!skipLogin)
+                {
+                    ShowLoginMenu();
+                }
+                else
+                {
+                    Start();
+                }
             }
 
         }
         else
         {
-            // MenuControl.Instance.ShowLoginMenu();
-            MenuControl.Instance.ShowMainMenu();
+            if (!skipLogin)
+            {
+                ShowLoginMenu();
+            }
+            else
+            {
+                ShowMainMenu();
+            }
+
         }
         //add loading page here?
         //MenuControl.Instance.loadingMenu.ShowLoading();

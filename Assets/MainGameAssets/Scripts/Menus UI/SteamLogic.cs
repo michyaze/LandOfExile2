@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-#if UNITY_STANDALONE
+
+#if UNITY_STANDALONE && !DISABLESTEAMWORKS
 using Steamworks;
 #endif
 
@@ -10,12 +11,12 @@ public class SteamLogic : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        #if UNITY_STANDALONE
+#if UNITY_STANDALONE && !DISABLESTEAMWORKS
         if (SteamManager.Initialized)
         {
             string steamUser = SteamFriends.GetPersonaName();
             Debug.Log(steamUser);
-
+        
             SyncAchievements();
         }
 #endif 
@@ -23,7 +24,7 @@ public class SteamLogic : MonoBehaviour
 
     public void SetAchievementComplete(Achievement achievement)
     {
-        #if UNITY_STANDALONE
+#if UNITY_STANDALONE && !DISABLESTEAMWORKS
         if (SteamManager.Initialized)
         {
             SteamUserStats.SetAchievement(achievement.UniqueID);
@@ -34,7 +35,7 @@ public class SteamLogic : MonoBehaviour
 
     public void ResetAchievements()
     {
-        #if UNITY_STANDALONE
+#if UNITY_STANDALONE && !DISABLESTEAMWORKS
         if (SteamManager.Initialized)
         {
             SteamUserStats.ResetAllStats(true);
@@ -45,7 +46,7 @@ public class SteamLogic : MonoBehaviour
 
     public void SyncAchievements()
     {
-        #if UNITY_STANDALONE
+#if UNITY_STANDALONE && !DISABLESTEAMWORKS
         if (SteamManager.Initialized)
         {
             foreach (Achievement achievement in MenuControl.Instance.achievementsMenu.achievements)

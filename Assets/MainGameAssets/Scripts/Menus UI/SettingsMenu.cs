@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -38,6 +39,23 @@ public class SettingsMenu : BasicMenu
         // }
     }
 
+    private void Awake()
+    {
+#if UNITY_STANDALONE
+        fullscreenToggle.isOn = PlayerPrefs.GetInt("Screen_FullScreen", 1) == 1;
+        //resolutions = Screen.resolutions;
+        resolutions = new List<Resolution>()
+        {
+            newResolution(1920, 1080),
+            newResolution(1600, 900),
+            newResolution(1280, 720),
+        }.ToArray();
+        
+        int currentResolutionIndex = PlayerPrefs.GetInt("ResolutionIndex", 0);
+        resolutionDropdown.value = currentResolutionIndex;
+#endif
+    }
+
     void Start()
     {
         MenuControl.Instance.soundMixer.SetFloat("SoundVolume", PlayerPrefs.GetFloat("SoundVolume", -5f) * 4f);
@@ -61,7 +79,7 @@ public class SettingsMenu : BasicMenu
         int currentResolutionIndex = PlayerPrefs.GetInt("ResolutionIndex", 0);
         resolutionDropdown.value = currentResolutionIndex;
         SetNewScreenResolution();
-        #endif
+#endif
     }
 
     Resolution newResolution(int width, int height)
