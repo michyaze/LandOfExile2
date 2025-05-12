@@ -146,7 +146,7 @@ public class MenuControl : MonoBehaviour
     public bool exhustAllMinionAfterUsage = true;
 
     /// <summary>跳过登录</summary>
-    private bool skipLogin = true;
+    private bool skipLogin = false;
 
     public enum Languages
     {

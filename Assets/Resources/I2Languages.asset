@@ -121392,6 +121392,44 @@ MonoBehaviour:
       - 
       Flags: 00000000000000000000000000
       Languages_Touch: []
+    - Term: AgreeAndContinue
+      TermType: 0
+      Description: 
+      Languages:
+      - Agree
+      - "\u540C\u610F\u5E76\u7EE7\u7EED"
+      - "\u540C\u610F\u5E76\u7EE7\u7EED"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
+    - Term: DisAgree
+      TermType: 0
+      Description: 
+      Languages:
+      - DisAgree
+      - "\u4E0D\u540C\u610F"
+      - "\u4E0D\u540C\u610F"
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 00000000000000000000000000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 

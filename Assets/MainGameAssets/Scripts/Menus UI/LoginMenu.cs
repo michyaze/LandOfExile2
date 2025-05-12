@@ -13,6 +13,10 @@ public class LoginMenu : BasicMenu
 
     [SerializeField] private string webUrl = "http://account.thearky.cn:8090/";
 
+    [SerializeField] private GameObject privacyTipsRoot;
+
+    [SerializeField] private GameObject loginLayerRoot;
+
     [SerializeField] private InputField account;
 
     [SerializeField] private InputField password;
@@ -23,6 +27,10 @@ public class LoginMenu : BasicMenu
     [SerializeField] private Text waitSendTime;
 
     [SerializeField] private GameObject popupTips;
+
+    [SerializeField] private Toggle agreePrivacy;
+
+    [SerializeField] private Toggle autoLogin;
 
     /// <summary>等待下次发送短信的时间</summary>
     private float waitTime = 60;
@@ -58,10 +66,14 @@ public class LoginMenu : BasicMenu
 
     public override void ShowMenu()
     {
+        // PlayerPrefs.SetInt("AgreePrivacyTips", 0);
         base.ShowMenu();
+        privacyTipsRoot.SetActive(PlayerPrefs.GetInt("AgreePrivacyTips", 0) == 0);
+        loginLayerRoot.SetActive(PlayerPrefs.GetInt("AgreePrivacyTips", 0) == 1);
         waitSendTime.text = "获取验证码";
         waitTime = 0;
         canSendVerifyCode = true;
+        popupTips.SetActive(false);
     }
 
 
@@ -70,6 +82,18 @@ public class LoginMenu : BasicMenu
         base.HideMenu(instantly);
     }
 
+
+    public void OnAgreePrivacyTipsBtnClick()
+    {
+        PlayerPrefs.SetInt("AgreePrivacyTips", 1);
+        privacyTipsRoot.SetActive(false);
+        loginLayerRoot.SetActive(true);
+    }
+
+    public void OnDisAgreePrivacyTipsBtnClick()
+    {
+        Application.Quit();
+    }
 
     private void Update()
     {
@@ -179,6 +203,11 @@ public class LoginMenu : BasicMenu
     /// <summary>注册</summary>
     private void Register(string request, string phone, string pwd)
     {
+        if (!agreePrivacy.isOn)
+        {
+            ShowPopMessage("请先同意隐私协议");
+            return;
+        }
         var user = new UserCredentials { phone = phone, smscode = pwd };
         string jsonData = JsonUtility.ToJson(user);
 
@@ -196,6 +225,12 @@ public class LoginMenu : BasicMenu
     /// <summary>登录</summary>
     private void Login(string request, string phone, string pwd)
     {
+        
+        if (!agreePrivacy.isOn)
+        {
+            ShowPopMessage("请先同意隐私协议");
+            return;
+        }
         var user = new UserCredentials { phone = phone, smscode = pwd };
         string jsonData = JsonUtility.ToJson(user);
         StartCoroutine(SendPostRequest(webUrl + request, jsonData, OnLoginSuccess));
@@ -233,8 +268,8 @@ public class LoginMenu : BasicMenu
         tipsMessage.text = message;
         popupTips.SetActive(true);
         popupTips.transform.localPosition = new Vector3(0, 100, 0);
-        var tween = LeanTween.moveLocalY(popupTips, 300, 1f);
-        LeanTween.alpha(popupTips, 0.5f, 0.5f);
+        var tween = LeanTween.moveLocalY(popupTips, 300, 0.75f);
+        LeanTween.alpha(popupTips, 0.5f, 0.75f);
         tween.setOnComplete(() =>
         {
             popupTips.SetActive(false);
