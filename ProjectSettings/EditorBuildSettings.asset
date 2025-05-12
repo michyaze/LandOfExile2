@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/MainGameAssets/Main Game Scene Mobile.unity
     guid: 85640ece6572a4c03a59d8310729d790
   - enabled: 1
+    path: Assets/MainGameAssets/Launcher.unity
+    guid: 7dfe1d4be07b1fb42908feffa5d47dfd
+  - enabled: 1
     path: Assets/MainGameAssets/Main Game Scene PC NewUI.unity
     guid: d373da235e9c6b34192d7467b7f4dc7f
   m_configObjects: {}
