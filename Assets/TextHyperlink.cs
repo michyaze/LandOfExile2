@@ -204,6 +204,7 @@ namespace Hyperlink
         public List<RegexPattern> linkRegexPattern = new List<RegexPattern>()
         {
             new RegexPattern(@"<a href=([^>\n\s]+)>(.*?)(</a>)", LinkColor),
+            // new RegexPattern(@"<a\s+[^>]*href\s*=\s*['""""](?<url>[^'""""]*)['""""][^>]*>(?<text>.*?)</a>", LinkColor),
         };
  
         /// <summary>
