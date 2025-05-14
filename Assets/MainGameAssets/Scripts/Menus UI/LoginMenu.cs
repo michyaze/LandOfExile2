@@ -113,7 +113,7 @@ public class LoginMenu : BasicMenu
         {
             canSendVerifyCode = true;
             waitTime = 0;
-            waitSendTime.text = "重新获取";
+            waitSendTime.text = "获取验证码";
         }
     }
 

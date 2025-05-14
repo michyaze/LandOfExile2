@@ -577,23 +577,41 @@ namespace Hyperlink
         /// </summary>
         private void TryAddMatchLink()
         {
+            // foreach (var entry in linkRegexPattern)
+            // {
+            //     var matches = Regex.Matches(text, entry.pattern, RegexOptions.Singleline);
+            //     foreach (Match match in matches)
+            //     {
+            //         var regex = new Regex(entry.pattern, RegexOptions.Singleline);
+            //         var regexMatch = regex.Match(match.Value);
+            //         var overwriteColor = entry.overwriteColor == true ? entry.color : (Color?)null;
+            //         if (regexMatch.Success)
+            //         {
+            //             var group = match.Groups[1];
+            //             AddLink(match.Index, group.Value,match.Value, overwriteColor, _onClickLink);
+            //         }
+            //         else
+            //         {
+            //             AddLink(match.Index, match.Value.Length, overwriteColor, _onClickLink);
+            //         }
+            //     }
+            // }
+            
             foreach (var entry in linkRegexPattern)
             {
                 var matches = Regex.Matches(text, entry.pattern, RegexOptions.Singleline);
                 foreach (Match match in matches)
                 {
-                    var regex = new Regex(entry.pattern, RegexOptions.Singleline);
-                    var regexMatch = regex.Match(match.Value);
-                    var overwriteColor = entry.overwriteColor == true ? entry.color : (Color?)null;
-                    if (regexMatch.Success)
-                    {
-                        var group = match.Groups[1];
-                        AddLink(match.Index, group.Value,match.Value, overwriteColor, _onClickLink);
-                    }
-                    else
-                    {
-                        AddLink(match.Index, match.Value.Length, overwriteColor, _onClickLink);
-                    }
+                    var overwriteColor = entry.overwriteColor ? entry.color : (Color?)null;
+            
+                    // 确保至少有2个分组：href和显示内容
+                    if (match.Groups.Count < 3) continue;
+
+                    var hrefGroup = match.Groups[1];
+                    var contentGroup = match.Groups[2];
+            
+                    // 使用显示文本的实际位置和长度
+                    AddLink(contentGroup.Index,contentGroup.Length,hrefGroup.Value,contentGroup.Value,overwriteColor,_onClickLink);
                 }
             }
         }
@@ -614,6 +632,13 @@ namespace Hyperlink
             {
                 throw new ArgumentOutOfRangeException(nameof(length));
             }
+        }
+        
+        
+        private void AddLink(int startIndex, int length, string link, string content, Color? linkColor, ClickLinkEvent onClick)
+        {
+            CheckLinkException(startIndex, length, onClick);
+            _links.Add(new LinkInfo(startIndex, length, link, content, linkColor, onClick));
         }
         
         private void AddLink(int startIndex, int length, Color? linkColor, ClickLinkEvent onClick)
